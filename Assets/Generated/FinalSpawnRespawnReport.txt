@@ -1,0 +1,12 @@
+FINAL SPAWN + DYNAMIC RESPAWN REPORT
+Scene: Assets/Scenes/SampleScene.unity
+Built: 8/5/2026 3:53:27 AM
+
+Real start: (171.58, 31.64, 383.51)
+Distance from gate: 20.8 m
+Enemy-relative respawn distance: 20 m
+Post-respawn protection: 3 seconds
+Player health restored to 100
+Player shield reset to 0
+Quest progress reset to Inspect Main Gate
+Spider test position removed

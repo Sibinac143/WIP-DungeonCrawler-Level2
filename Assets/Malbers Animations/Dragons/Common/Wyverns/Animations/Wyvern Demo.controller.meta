@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 607542907bcf04441853db176d9d0708
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303013
+  packageName: Kuzar the Magnificent (Wyvern)
+  packageVersion: 4.0a
+  assetPath: Assets/Malbers Animations/Dragons/Common/Wyverns/Animations/Wyvern Demo.controller
+  uploadId: 872652

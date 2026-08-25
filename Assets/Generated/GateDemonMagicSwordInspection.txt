@@ -1,0 +1,265 @@
+GATE DEMON + MAGIC SWORD ASSET INSPECTION
+Generated: 2026-08-05 02:21:15
+Unity: 6000.5.2f1
+
+MATCHED ASSET PATHS
+------------------------------------------------------------------------------------------
+Assets/Demon Horror Creature with Weapon
+Assets/Demon Horror Creature with Weapon/DemonDemoScene.unity
+Assets/Demon Horror Creature with Weapon/DemoSceneAssets
+Assets/Demon Horror Creature with Weapon/DemoSceneAssets/DemoAnimCont.controller
+Assets/Demon Horror Creature with Weapon/DemoSceneAssets/DemoScenePlaneMat 1.mat
+Assets/Demon Horror Creature with Weapon/DemoSceneAssets/plane_DefaultMaterial_AlbedoTransparency.png
+Assets/Demon Horror Creature with Weapon/DemoSceneAssets/plane_DefaultMaterial_MetallicSmoothness.png
+Assets/Demon Horror Creature with Weapon/DemoSceneAssets/plane_DefaultMaterial_Normal.png
+Assets/Demon Horror Creature with Weapon/Materials
+Assets/Demon Horror Creature with Weapon/Materials/Ball_mat.mat
+Assets/Demon Horror Creature with Weapon/Materials/Demon_damaged_mat.mat
+Assets/Demon Horror Creature with Weapon/Materials/Demon_default_mat.mat
+Assets/Demon Horror Creature with Weapon/Meshes
+Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx
+Assets/Demon Horror Creature with Weapon/Meshes/Demon_apose_clean.fbx
+Assets/Demon Horror Creature with Weapon/Prefabs
+Assets/Demon Horror Creature with Weapon/Prefabs/Demon_APose.prefab
+Assets/Demon Horror Creature with Weapon/Prefabs/Demon_damaged.prefab
+Assets/Demon Horror Creature with Weapon/Prefabs/Demon_default.prefab
+Assets/Demon Horror Creature with Weapon/Textures
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_AO.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_BaseColor.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Emissive.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Metallic.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Normal_DirectX.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Normal_OpenGL.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Roughness.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_BaseColor.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_Metallic.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_Normal_DirectX.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_Normal_OpenGL.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_Roughness.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_BaseColor.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_Metallic.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_Normal_DirectX.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_Normal_OpenGL.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_Roughness.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon1_AO.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon1_Scatter.png
+Assets/Hovl Studio
+Assets/Hovl Studio/Magic sword
+Assets/Hovl Studio/Magic sword/Demo MagicSwords.unity
+Assets/Hovl Studio/Magic sword/Materials
+Assets/Hovl Studio/Magic sword/Materials/MagicSword_Ice.mat
+Assets/Hovl Studio/Magic sword/Materials/MagicSword_Iron.mat
+Assets/Hovl Studio/Magic sword/Models
+Assets/Hovl Studio/Magic sword/Models/MagicSword.fbx
+Assets/Hovl Studio/Magic sword/Prefabs
+Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Ice.prefab
+Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Iron.prefab
+Assets/Hovl Studio/Magic sword/Textures
+Assets/Hovl Studio/Magic sword/Textures/MagicSword_Albedo.png
+Assets/Hovl Studio/Magic sword/Textures/MagicSword_AO.png
+Assets/Hovl Studio/Magic sword/Textures/MagicSword_Emission.png
+Assets/Hovl Studio/Magic sword/Textures/MagicSword_MetallicSmoothness.png
+Assets/Hovl Studio/Magic sword/Textures/MagicSword_Normal.png
+Assets/Hovl Studio/Magic sword/Textures/Set2
+Assets/Hovl Studio/Magic sword/Textures/Set2/MagicSword_Albedo.png
+Assets/Hovl Studio/Magic sword/Textures/Set2/MagicSword_Emission.png
+Assets/Hovl Studio/Magic sword/Textures/Set2/MagicSword_MetallicSmoothness.png
+Assets/Hovl Studio/Magic sword/Textures/Set2/MagicSword_Normal.png
+
+PREFABS
+------------------------------------------------------------------------------------------
+PREFAB: Demon_APose
+Path: Assets/Demon Horror Creature with Weapon/Prefabs/Demon_APose.prefab
+Renderers: 2
+Animators: 0
+Colliders: 0
+Rigidbodies: 0
+Broken material slots: 0
+Visible bounds size: 2.144 x 2.857 x 1.388
+Materials: Ball_mat [Standard], Demon_default_mat [Standard]
+Likely attachment bones: NONE FOUND
+---------------------------------------------
+PREFAB: Demon_damaged
+Path: Assets/Demon Horror Creature with Weapon/Prefabs/Demon_damaged.prefab
+Renderers: 2
+Animators: 1
+Colliders: 0
+Rigidbodies: 0
+Broken material slots: 0
+Visible bounds size: 2.276 x 2.975 x 0.969
+Materials: Ball_mat [Standard], Demon_default_mat [Standard]
+Animator object: Demon_damaged/Demon
+Avatar: NONE
+Controller: Assets/Demon Horror Creature with Weapon/DemoSceneAssets/DemoAnimCont.controller
+Likely attachment bones: Demon_damaged/Demon/Demon/Hand.L, Demon_damaged/Demon/Demon/Hand.R, Demon_damaged/Demon/Demon/Hand.R/Ball-root, Demon_damaged/Demon/Demon/Pelvis, Demon_damaged/Demon/Demon/Pelvis/Spine1, Demon_damaged/Demon/Demon/Pelvis/Spine1/Spine2
+---------------------------------------------
+PREFAB: Demon_default
+Path: Assets/Demon Horror Creature with Weapon/Prefabs/Demon_default.prefab
+Renderers: 2
+Animators: 1
+Colliders: 0
+Rigidbodies: 0
+Broken material slots: 0
+Visible bounds size: 2.276 x 2.975 x 0.969
+Materials: Ball_mat [Standard], Demon_default_mat [Standard]
+Animator object: Demon_default/Demon
+Avatar: NONE
+Controller: Assets/Demon Horror Creature with Weapon/DemoSceneAssets/DemoAnimCont.controller
+Likely attachment bones: Demon_default/Demon/Demon/Hand.L, Demon_default/Demon/Demon/Hand.R, Demon_default/Demon/Demon/Hand.R/Ball-root, Demon_default/Demon/Demon/Pelvis, Demon_default/Demon/Demon/Pelvis/Spine1, Demon_default/Demon/Demon/Pelvis/Spine1/Spine2
+---------------------------------------------
+PREFAB: MagicSword_Ice
+Path: Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Ice.prefab
+Renderers: 1
+Animators: 0
+Colliders: 0
+Rigidbodies: 0
+Broken material slots: 0
+Visible bounds size: 0.667 x 0.137 x 2.668
+Materials: MagicSword_Ice [Standard]
+Likely attachment bones: MagicSword_Ice
+---------------------------------------------
+PREFAB: MagicSword_Iron
+Path: Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Iron.prefab
+Renderers: 1
+Animators: 0
+Colliders: 0
+Rigidbodies: 0
+Broken material slots: 0
+Visible bounds size: 0.667 x 0.137 x 2.668
+Materials: MagicSword_Iron [Standard]
+Likely attachment bones: MagicSword_Iron
+---------------------------------------------
+
+MODELS / FBX
+------------------------------------------------------------------------------------------
+MODEL: Demon
+Path: Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Animation clips: Demon|@Pose_A, Demon|Come-out1, Demon|Come-out2, Demon|Death, Demon|Get-damage, Demon|Idle1, Demon|Idle2, Demon|Idle3, Demon|Jump-long, Demon|Jump-short, Demon|Punch1, Demon|Punch2, Demon|Punch3, Demon|Run1, Demon|Shoot1, Demon|Shoot2, Demon|Spasm, Demon|Telepathic, Demon|Telepathic-loop, Demon|Throw, Demon|Throw-catch, Demon|Throw-loop, Demon|Turn-left, Demon|Turn-right, Demon|Walk1, Demon|Walk2
+---------------------------------------------
+MODEL: Demon_apose_clean
+Path: Assets/Demon Horror Creature with Weapon/Meshes/Demon_apose_clean.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Animation clips: NONE
+---------------------------------------------
+MODEL: MagicSword
+Path: Assets/Hovl Studio/Magic sword/Models/MagicSword.fbx
+Rig type: None
+Avatar setup: NoAvatar
+Import animation: False
+Animation clips: NONE
+---------------------------------------------
+
+ANIMATOR CONTROLLERS
+------------------------------------------------------------------------------------------
+CONTROLLER: DemoAnimCont
+Path: Assets/Demon Horror Creature with Weapon/DemoSceneAssets/DemoAnimCont.controller
+Parameters: 
+States:
+  - Base Layer/Demon|Come-out1 -> Demon|Come-out1
+  - Base Layer/Demon|Come-out2 -> Demon|Come-out2
+  - Base Layer/Demon|Death -> Demon|Death
+  - Base Layer/Demon|Get-damage -> Demon|Get-damage
+  - Base Layer/Demon|Idle1 -> Demon|Idle1
+  - Base Layer/Demon|Idle2 -> Demon|Idle2
+  - Base Layer/Demon|Idle3 -> Demon|Idle3
+  - Base Layer/Demon|Jump-long -> Demon|Jump-long
+  - Base Layer/Demon|Jump-short -> Demon|Jump-short
+  - Base Layer/Demon|Punch1 -> Demon|Punch1
+  - Base Layer/Demon|Punch2 -> Demon|Punch2
+  - Base Layer/Demon|Punch3 -> Demon|Punch3
+  - Base Layer/Demon|Run1 -> Demon|Run1
+  - Base Layer/Demon|Shoot1 -> Demon|Shoot1
+  - Base Layer/Demon|Shoot2 -> Demon|Shoot2
+  - Base Layer/Demon|Spasm -> Demon|Spasm
+  - Base Layer/Demon|Telepathic -> Demon|Telepathic
+  - Base Layer/Demon|Telepathic-loop -> Demon|Telepathic-loop
+  - Base Layer/Demon|Throw -> Demon|Throw
+  - Base Layer/Demon|Throw-catch -> Demon|Throw-catch
+  - Base Layer/Demon|Throw-loop -> Demon|Throw-loop
+  - Base Layer/Demon|Turn-left -> Demon|Turn-left
+  - Base Layer/Demon|Turn-right -> Demon|Turn-right
+  - Base Layer/Demon|Walk1 -> Demon|Walk1
+  - Base Layer/Demon|Walk2 -> Demon|Walk2
+---------------------------------------------
+
+ANIMATION CLIPS
+------------------------------------------------------------------------------------------
+Demon|@Pose_A | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=0.040 | loop=False | humanMotion=False
+Demon|Come-out1 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=2.000 | loop=False | humanMotion=False
+Demon|Come-out2 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=1.800 | loop=False | humanMotion=False
+Demon|Death | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Get-damage | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Idle1 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Idle2 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Idle3 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Jump-long | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=3.240 | loop=False | humanMotion=False
+Demon|Jump-short | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=2.000 | loop=False | humanMotion=False
+Demon|Punch1 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Punch2 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Punch3 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Run1 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Shoot1 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Shoot2 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Spasm | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Telepathic | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Telepathic-loop | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.800 | loop=False | humanMotion=False
+Demon|Throw | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Throw-catch | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=1.600 | loop=False | humanMotion=False
+Demon|Throw-loop | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Turn-left | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Turn-right | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Walk1 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+Demon|Walk2 | path=Assets/Demon Horror Creature with Weapon/Meshes/Demon.fbx | length=4.840 | loop=False | humanMotion=False
+
+MATERIAL ASSETS
+------------------------------------------------------------------------------------------
+Assets/Demon Horror Creature with Weapon/DemoSceneAssets/DemoScenePlaneMat 1.mat | shader=Standard
+Assets/Demon Horror Creature with Weapon/Materials/Ball_mat.mat | shader=Standard
+Assets/Demon Horror Creature with Weapon/Materials/Demon_damaged_mat.mat | shader=Standard
+Assets/Demon Horror Creature with Weapon/Materials/Demon_default_mat.mat | shader=Standard
+Assets/Hovl Studio/Magic sword/Materials/MagicSword_Ice.mat | shader=Standard
+Assets/Hovl Studio/Magic sword/Materials/MagicSword_Iron.mat | shader=Standard
+
+TEXTURES
+------------------------------------------------------------------------------------------
+Assets/Demon Horror Creature with Weapon/DemoSceneAssets/plane_DefaultMaterial_AlbedoTransparency.png
+Assets/Demon Horror Creature with Weapon/DemoSceneAssets/plane_DefaultMaterial_MetallicSmoothness.png
+Assets/Demon Horror Creature with Weapon/DemoSceneAssets/plane_DefaultMaterial_Normal.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_AO.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_BaseColor.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Emissive.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Metallic.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Normal_DirectX.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Normal_OpenGL.png
+Assets/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Roughness.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_BaseColor.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_Metallic.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_Normal_DirectX.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_Normal_OpenGL.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_Roughness.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_BaseColor.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_Metallic.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_Normal_DirectX.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_Normal_OpenGL.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_Roughness.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon1_AO.png
+Assets/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon1_Scatter.png
+Assets/Hovl Studio/Magic sword/Textures/MagicSword_Albedo.png
+Assets/Hovl Studio/Magic sword/Textures/MagicSword_AO.png
+Assets/Hovl Studio/Magic sword/Textures/MagicSword_Emission.png
+Assets/Hovl Studio/Magic sword/Textures/MagicSword_MetallicSmoothness.png
+Assets/Hovl Studio/Magic sword/Textures/MagicSword_Normal.png
+Assets/Hovl Studio/Magic sword/Textures/Set2/MagicSword_Albedo.png
+Assets/Hovl Studio/Magic sword/Textures/Set2/MagicSword_Emission.png
+Assets/Hovl Studio/Magic sword/Textures/Set2/MagicSword_MetallicSmoothness.png
+Assets/Hovl Studio/Magic sword/Textures/Set2/MagicSword_Normal.png
+

@@ -1,0 +1,11 @@
+PHASE 2 COMBAT FOUNDATION REPORT
+Scene: Assets/Scenes/SampleScene.unity
+Built: 8/4/2026 11:02:54 PM
+
+PLAYER: player | HP=100 | camera=Main Camera
+HUD: CombatHUD created.
+PRACTICE TARGET: Training Target A | HP=60
+PRACTICE TARGET: Training Target B | HP=90
+DRAGON: Gate Guardian Left | HP=350 | contact damage=22
+DRAGON: Gate Guardian Right | HP=350 | contact damage=22
+DRAGON: Castle Guardian Boss | HP=600 | contact damage=32

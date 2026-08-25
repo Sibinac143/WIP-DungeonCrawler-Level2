@@ -1,0 +1,69 @@
+SPIDER HEALTH + SHIELD ASSET INSPECTION
+Generated: 2026-08-05 03:29:56
+Unity: 6000.5.2f1
+
+MATCHED ASSET PATHS
+------------------------------------------------------------------------------------------
+Assets/Editor/SpiderHealthShieldInspector.cs
+Assets/fantasySpider
+Assets/fantasySpider/!LabelHolder.prefab
+Assets/fantasySpider/fantasySpider.unity
+Assets/fantasySpider/fantasySpiderSettings.lighting
+Assets/fantasySpider/FSP_ContinuousRotation.cs
+Assets/fantasySpider/Materials
+Assets/fantasySpider/Materials/ground.mat
+Assets/fantasySpider/Materials/spider_01.mat
+Assets/fantasySpider/Materials/spider_black.mat
+Assets/fantasySpider/Materials/spider_black_Std.mat
+Assets/fantasySpider/Readme_spider.html
+Assets/fantasySpider/spider_01.tga
+Assets/fantasySpider/spider_01_black.tga
+Assets/fantasySpider/spider_01_Bump.png
+Assets/fantasySpider/spider_myOldOne.FBX
+
+PREFABS
+------------------------------------------------------------------------------------------
+
+MODELS / FBX
+------------------------------------------------------------------------------------------
+MODEL: spider_myOldOne
+Path: Assets/fantasySpider/spider_myOldOne.FBX
+Rig type: Legacy
+Avatar setup: NoAvatar
+Import animation: True
+Animation clips: allanims, attack1, attack2, death1, death2, hit1, hit2, idle, jump, refpose, run, taunt, walk
+---------------------------------------------
+
+ANIMATOR CONTROLLERS
+------------------------------------------------------------------------------------------
+NONE FOUND
+
+ANIMATION CLIPS
+------------------------------------------------------------------------------------------
+allanims | path=Assets/fantasySpider/spider_myOldOne.FBX | length=12.367 | loop=False | humanMotion=False
+attack1 | path=Assets/fantasySpider/spider_myOldOne.FBX | length=0.667 | loop=False | humanMotion=False
+attack2 | path=Assets/fantasySpider/spider_myOldOne.FBX | length=0.667 | loop=False | humanMotion=False
+death1 | path=Assets/fantasySpider/spider_myOldOne.FBX | length=1.300 | loop=False | humanMotion=False
+death2 | path=Assets/fantasySpider/spider_myOldOne.FBX | length=1.333 | loop=False | humanMotion=False
+hit1 | path=Assets/fantasySpider/spider_myOldOne.FBX | length=0.667 | loop=False | humanMotion=False
+hit2 | path=Assets/fantasySpider/spider_myOldOne.FBX | length=0.667 | loop=False | humanMotion=False
+idle | path=Assets/fantasySpider/spider_myOldOne.FBX | length=1.000 | loop=False | humanMotion=False
+jump | path=Assets/fantasySpider/spider_myOldOne.FBX | length=1.333 | loop=False | humanMotion=False
+refpose | path=Assets/fantasySpider/spider_myOldOne.FBX | length=0.067 | loop=True | humanMotion=False
+run | path=Assets/fantasySpider/spider_myOldOne.FBX | length=1.000 | loop=False | humanMotion=False
+taunt | path=Assets/fantasySpider/spider_myOldOne.FBX | length=0.967 | loop=False | humanMotion=False
+walk | path=Assets/fantasySpider/spider_myOldOne.FBX | length=1.000 | loop=False | humanMotion=False
+
+MATERIAL ASSETS
+------------------------------------------------------------------------------------------
+Assets/fantasySpider/Materials/ground.mat | shader=Legacy Shaders/Diffuse
+Assets/fantasySpider/Materials/spider_01.mat | shader=Legacy Shaders/Transparent/Cutout/Diffuse
+Assets/fantasySpider/Materials/spider_black.mat | shader=Legacy Shaders/Transparent/Cutout/Diffuse
+Assets/fantasySpider/Materials/spider_black_Std.mat | shader=Standard
+
+TEXTURES
+------------------------------------------------------------------------------------------
+Assets/fantasySpider/spider_01.tga
+Assets/fantasySpider/spider_01_black.tga
+Assets/fantasySpider/spider_01_Bump.png
+

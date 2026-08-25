@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0137384c176ddd746a332a0f44f7538d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154284
+  packageName: "Dungeon Builder \u2013 Modular Lowpoly Medieval Kit for Fantasy RPGs"
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_lowpolyPack_ModularDungeons/Render/UniversalRenderPipelineAsset.asset
+  uploadId: 756360

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: bbb17fc6e3cc47c4f904319ef2dcedea
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 338292
+  packageName: Demon Minion Character
+  packageVersion: 1.0
+  assetPath: Assets/Lil Pupinduy/Character/Demon_Minion/Shaders/Demon Shader.shadergraph
+  uploadId: 800650

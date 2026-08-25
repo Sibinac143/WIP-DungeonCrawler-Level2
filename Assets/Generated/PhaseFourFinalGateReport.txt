@@ -1,0 +1,12 @@
+PHASE 4 FINAL GATE REPORT
+Scene: Assets/Scenes/SampleScene.unity
+Built: 8/5/2026 3:43:29 AM
+
+Gate Horror Guardian Left created from Assets/Demon Horror Creature with Weapon/Prefabs/Demon_default.prefab
+Gate Horror Guardian Right created from Assets/Demon Horror Creature with Weapon/Prefabs/Demon_damaged.prefab
+Magic sword equipped as a replacement first-person weapon.
+Disabled both original wyvern gate guardians.
+Created two frozen horror-demon guardians.
+Magic sword prefab: Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Iron.prefab
+Objective indicator configured for all quest destinations.
+Permanent key preview disabled.

@@ -1,0 +1,1221 @@
+DEMON + BLACKSMITH FOCUSED ASSET INSPECTION
+Generated: 2026-08-05 00:34:50
+Unity: 6000.5.2f1
+
+RELEVANT ROOT FOLDERS
+--------------------------------------------------------------------------------
+Assets/Editor/DemonBlacksmithFocusedInspector.cs
+Assets/Lil Pupinduy
+Assets/Lil Pupinduy/Character
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Docs
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Scenes
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Textures
+
+PREFABS
+--------------------------------------------------------------------------------
+PREFAB: Demon_Minion_1
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/Prefabs/Demon_Minion_1.prefab
+Animators: 1
+Skinned renderers: 16
+Renderers: 17
+Colliders: 0
+Broken material slots: 0
+Materials: Basket Material [Shader Graphs/Basket Shader], Demon Material [Shader Graphs/Demon Shader], Stone Material [Shader Graphs/Stone Shader]
+Animator object: Demon_Minion_1
+Avatar: Demon_MinionAvatar | valid=True | human=False
+Controller: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Demon Weapon Animator Controller.controller
+Likely bones: Demon_Minion_1/root, Demon_Minion_1/root/ik_foot_root, Demon_Minion_1/root/ik_hand_root, Demon_Minion_1/root/ik_hand_root/ik_hand_gun, Demon_Minion_1/root/ik_hand_root/ik_hand_gun/ik_hand_l, Demon_Minion_1/root/ik_hand_root/ik_hand_gun/ik_hand_r, Demon_Minion_1/root/pelvis, Demon_Minion_1/root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l, Demon_Minion_1/root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r, Demon_Minion_1/root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/head, Demon_Minion_1/root/Weapon/Stone/Stone_Weapon/root
+----------------------------------------
+PREFAB: Demon_Minion_2
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/Prefabs/Demon_Minion_2.prefab
+Animators: 1
+Skinned renderers: 16
+Renderers: 16
+Colliders: 0
+Broken material slots: 0
+Materials: Basket Material [Shader Graphs/Basket Shader], Demon Material [Shader Graphs/Demon Shader], Stone Material [Shader Graphs/Stone Shader]
+Animator object: Demon_Minion_2
+Avatar: Demon_MinionAvatar | valid=True | human=False
+Controller: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Demon Animator Controller.controller
+Likely bones: Demon_Minion_2/root, Demon_Minion_2/root/ik_foot_root, Demon_Minion_2/root/ik_hand_root, Demon_Minion_2/root/ik_hand_root/ik_hand_gun, Demon_Minion_2/root/ik_hand_root/ik_hand_gun/ik_hand_l, Demon_Minion_2/root/ik_hand_root/ik_hand_gun/ik_hand_r, Demon_Minion_2/root/pelvis, Demon_Minion_2/root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l, Demon_Minion_2/root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r, Demon_Minion_2/root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/head, Demon_Minion_2/root/Weapon/Stone/Stone_Weapon/root
+----------------------------------------
+PREFAB: Demon_Minion_3
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/Prefabs/Demon_Minion_3.prefab
+Animators: 1
+Skinned renderers: 16
+Renderers: 17
+Colliders: 0
+Broken material slots: 0
+Materials: Basket Material [Shader Graphs/Basket Shader], Demon Material 2 [Shader Graphs/Demon Shader], Stone Material 2 [Shader Graphs/Stone Shader]
+Animator object: Demon_Minion_3
+Avatar: Demon_MinionAvatar | valid=True | human=False
+Controller: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Demon Weapon Animator Controller.controller
+Likely bones: Demon_Minion_3/root, Demon_Minion_3/root/ik_foot_root, Demon_Minion_3/root/ik_hand_root, Demon_Minion_3/root/ik_hand_root/ik_hand_gun, Demon_Minion_3/root/ik_hand_root/ik_hand_gun/ik_hand_l, Demon_Minion_3/root/ik_hand_root/ik_hand_gun/ik_hand_r, Demon_Minion_3/root/pelvis, Demon_Minion_3/root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l, Demon_Minion_3/root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r, Demon_Minion_3/root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/head, Demon_Minion_3/root/Weapon/Stone/Stone_Weapon/root
+----------------------------------------
+PREFAB: Smoke VFX
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/Prefabs/Smoke VFX.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: NONE
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Stone_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/Prefabs/Stone_Weapon.prefab
+Animators: 0
+Skinned renderers: 1
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: Stone Material [Shader Graphs/Stone Shader]
+Likely bones: Stone_Weapon/root
+----------------------------------------
+PREFAB: Studio
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/Studio/Studio.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: StudioMaterial [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Anvil
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Anvil.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: Anvil_Material [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Bellows_forge
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Bellows_forge.prefab
+Animators: 1
+Skinned renderers: 1
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: Bellows_forge_Material [Universal Render Pipeline/Lit]
+Animator object: Bellows_forge
+Avatar: Bellows_forgeAvatar | valid=True | human=False
+Controller: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Bellows_forge/Forge Animator Controller.controller
+Likely bones: Bellows_forge/forge_root
+----------------------------------------
+PREFAB: Blank
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Blank.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: Anvil_Material [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Forceps
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Forceps.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 3
+Colliders: 0
+Broken material slots: 0
+Materials: Hammer_Material [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Hammer
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Hammer.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: Hammer_Material [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: NPC_Blacksmith V1
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V1.prefab
+Animators: 1
+Skinned renderers: 37
+Renderers: 42
+Colliders: 0
+Broken material slots: 0
+Materials: NPC Blacksmith_Legs_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_2_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_1_Material [Universal Render Pipeline/Lit], Anvil_Material [Universal Render Pipeline/Lit], Hammer_Material [Universal Render Pipeline/Lit]
+Animator object: NPC_Blacksmith V1
+Avatar: NPC_BlacksmithAvatar | valid=True | human=False
+Controller: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Blacksmith_Base_Animator Controller.controller
+Likely bones: NPC_Blacksmith V1/root, NPC_Blacksmith V1/root/ik_foot_root, NPC_Blacksmith V1/root/ik_hand_root, NPC_Blacksmith V1/root/ik_hand_root/ik_hand_gun, NPC_Blacksmith V1/root/ik_hand_root/ik_hand_gun/ik_hand_l, NPC_Blacksmith V1/root/ik_hand_root/ik_hand_gun/ik_hand_r, NPC_Blacksmith V1/root/pelvis, NPC_Blacksmith V1/root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l, NPC_Blacksmith V1/root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r, NPC_Blacksmith V1/root/pelvis/spine_01/spine_02/spine_03/neck_01/head
+----------------------------------------
+PREFAB: NPC_Blacksmith V1_Forging
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V1_Forging.prefab
+Animators: 1
+Skinned renderers: 37
+Renderers: 42
+Colliders: 0
+Broken material slots: 0
+Materials: NPC Blacksmith_Legs_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_2_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_1_Material [Universal Render Pipeline/Lit], Anvil_Material [Universal Render Pipeline/Lit], Hammer_Material [Universal Render Pipeline/Lit]
+Animator object: NPC_Blacksmith V1_Forging
+Avatar: NPC_BlacksmithAvatar | valid=True | human=False
+Controller: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Forging Animator Controller.controller
+Likely bones: NPC_Blacksmith V1_Forging/root, NPC_Blacksmith V1_Forging/root/ik_foot_root, NPC_Blacksmith V1_Forging/root/ik_hand_root, NPC_Blacksmith V1_Forging/root/ik_hand_root/ik_hand_gun, NPC_Blacksmith V1_Forging/root/ik_hand_root/ik_hand_gun/ik_hand_l, NPC_Blacksmith V1_Forging/root/ik_hand_root/ik_hand_gun/ik_hand_r, NPC_Blacksmith V1_Forging/root/pelvis, NPC_Blacksmith V1_Forging/root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l, NPC_Blacksmith V1_Forging/root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r, NPC_Blacksmith V1_Forging/root/pelvis/spine_01/spine_02/spine_03/neck_01/head
+----------------------------------------
+PREFAB: NPC_Blacksmith V1_Heating
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V1_Heating.prefab
+Animators: 1
+Skinned renderers: 37
+Renderers: 42
+Colliders: 0
+Broken material slots: 0
+Materials: NPC Blacksmith_Legs_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_2_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_1_Material [Universal Render Pipeline/Lit], Anvil_Material [Universal Render Pipeline/Lit], Hammer_Material [Universal Render Pipeline/Lit]
+Animator object: NPC_Blacksmith V1_Heating
+Avatar: NPC_BlacksmithAvatar | valid=True | human=False
+Controller: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Heating Animator Controller.controller
+Likely bones: NPC_Blacksmith V1_Heating/root, NPC_Blacksmith V1_Heating/root/ik_foot_root, NPC_Blacksmith V1_Heating/root/ik_hand_root, NPC_Blacksmith V1_Heating/root/ik_hand_root/ik_hand_gun, NPC_Blacksmith V1_Heating/root/ik_hand_root/ik_hand_gun/ik_hand_l, NPC_Blacksmith V1_Heating/root/ik_hand_root/ik_hand_gun/ik_hand_r, NPC_Blacksmith V1_Heating/root/pelvis, NPC_Blacksmith V1_Heating/root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l, NPC_Blacksmith V1_Heating/root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r, NPC_Blacksmith V1_Heating/root/pelvis/spine_01/spine_02/spine_03/neck_01/head
+----------------------------------------
+PREFAB: NPC_Blacksmith V1_Sharpening
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V1_Sharpening.prefab
+Animators: 1
+Skinned renderers: 37
+Renderers: 43
+Colliders: 0
+Broken material slots: 0
+Materials: NPC Blacksmith_Legs_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_2_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_1_Material [Universal Render Pipeline/Lit], Anvil_Material [Universal Render Pipeline/Lit], Hammer_Material [Universal Render Pipeline/Lit], Sword_Material [Universal Render Pipeline/Lit]
+Animator object: NPC_Blacksmith V1_Sharpening
+Avatar: NPC_BlacksmithAvatar | valid=True | human=False
+Controller: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Sharpening Animator Controller.controller
+Likely bones: NPC_Blacksmith V1_Sharpening/root, NPC_Blacksmith V1_Sharpening/root/ik_foot_root, NPC_Blacksmith V1_Sharpening/root/ik_hand_root, NPC_Blacksmith V1_Sharpening/root/ik_hand_root/ik_hand_gun, NPC_Blacksmith V1_Sharpening/root/ik_hand_root/ik_hand_gun/ik_hand_l, NPC_Blacksmith V1_Sharpening/root/ik_hand_root/ik_hand_gun/ik_hand_r, NPC_Blacksmith V1_Sharpening/root/pelvis, NPC_Blacksmith V1_Sharpening/root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l, NPC_Blacksmith V1_Sharpening/root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r, NPC_Blacksmith V1_Sharpening/root/pelvis/spine_01/spine_02/spine_03/neck_01/head
+----------------------------------------
+PREFAB: NPC_Blacksmith V2
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V2.prefab
+Animators: 1
+Skinned renderers: 37
+Renderers: 42
+Colliders: 0
+Broken material slots: 0
+Materials: NPC Blacksmith_Legs_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_2_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_1_Material [Universal Render Pipeline/Lit], Anvil_Material [Universal Render Pipeline/Lit], Hammer_Material [Universal Render Pipeline/Lit]
+Animator object: NPC_Blacksmith V2
+Avatar: NPC_BlacksmithAvatar | valid=True | human=False
+Controller: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Blacksmith_Base_Animator Controller.controller
+Likely bones: NPC_Blacksmith V2/root, NPC_Blacksmith V2/root/ik_foot_root, NPC_Blacksmith V2/root/ik_hand_root, NPC_Blacksmith V2/root/ik_hand_root/ik_hand_gun, NPC_Blacksmith V2/root/ik_hand_root/ik_hand_gun/ik_hand_l, NPC_Blacksmith V2/root/ik_hand_root/ik_hand_gun/ik_hand_r, NPC_Blacksmith V2/root/pelvis, NPC_Blacksmith V2/root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l, NPC_Blacksmith V2/root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r, NPC_Blacksmith V2/root/pelvis/spine_01/spine_02/spine_03/neck_01/head
+----------------------------------------
+PREFAB: NPC_Blacksmith V3
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V3.prefab
+Animators: 1
+Skinned renderers: 37
+Renderers: 42
+Colliders: 0
+Broken material slots: 0
+Materials: NPC Blacksmith_Legs_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_2_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_1_Material [Universal Render Pipeline/Lit], Anvil_Material [Universal Render Pipeline/Lit], Hammer_Material [Universal Render Pipeline/Lit]
+Animator object: NPC_Blacksmith V3
+Avatar: NPC_BlacksmithAvatar | valid=True | human=False
+Controller: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Blacksmith_Base_Animator Controller.controller
+Likely bones: NPC_Blacksmith V3/root, NPC_Blacksmith V3/root/ik_foot_root, NPC_Blacksmith V3/root/ik_hand_root, NPC_Blacksmith V3/root/ik_hand_root/ik_hand_gun, NPC_Blacksmith V3/root/ik_hand_root/ik_hand_gun/ik_hand_l, NPC_Blacksmith V3/root/ik_hand_root/ik_hand_gun/ik_hand_r, NPC_Blacksmith V3/root/pelvis, NPC_Blacksmith V3/root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l, NPC_Blacksmith V3/root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r, NPC_Blacksmith V3/root/pelvis/spine_01/spine_02/spine_03/neck_01/head
+----------------------------------------
+PREFAB: NPC_Blacksmith V4
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V4.prefab
+Animators: 1
+Skinned renderers: 37
+Renderers: 42
+Colliders: 0
+Broken material slots: 0
+Materials: NPC Blacksmith_Legs_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_2_Material [Universal Render Pipeline/Lit], NPC Blacksmith_Body_1_Material [Universal Render Pipeline/Lit], Anvil_Material [Universal Render Pipeline/Lit], Hammer_Material [Universal Render Pipeline/Lit]
+Animator object: NPC_Blacksmith V4
+Avatar: NPC_BlacksmithAvatar | valid=True | human=False
+Controller: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Blacksmith_Base_Animator Controller.controller
+Likely bones: NPC_Blacksmith V4/root, NPC_Blacksmith V4/root/ik_foot_root, NPC_Blacksmith V4/root/ik_hand_root, NPC_Blacksmith V4/root/ik_hand_root/ik_hand_gun, NPC_Blacksmith V4/root/ik_hand_root/ik_hand_gun/ik_hand_l, NPC_Blacksmith V4/root/ik_hand_root/ik_hand_gun/ik_hand_r, NPC_Blacksmith V4/root/pelvis, NPC_Blacksmith V4/root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l, NPC_Blacksmith V4/root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r, NPC_Blacksmith V4/root/pelvis/spine_01/spine_02/spine_03/neck_01/head
+----------------------------------------
+PREFAB: Oven
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Oven.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 4
+Colliders: 0
+Broken material slots: 0
+Materials: Oven_Material [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Sword
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Sword.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: Sword_Material [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Table
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Table.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: Bellows_forge_Material [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Trough
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Trough.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: Anvil_Material [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Whetstone
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Whetstone.prefab
+Animators: 1
+Skinned renderers: 10
+Renderers: 10
+Colliders: 0
+Broken material slots: 0
+Materials: Whetstone_Material [Universal Render Pipeline/Lit]
+Animator object: Whetstone
+Avatar: WhetstoneAvatar | valid=True | human=False
+Controller: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Whetstone/Whetstone Animator Controller.controller
+Likely bones: Whetstone/whetstone_root
+----------------------------------------
+PREFAB: Anvil
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Anvil.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Anvil_Stump_Stand
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Anvil_Stump_Stand.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Bellows
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Bellows.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Blacksmith_Sign
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Blacksmith_Sign.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Coal_Pile
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Coal_Pile.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Flat_Tongs
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Flat_Tongs.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Forge
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Forge.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Glowing_Ingot
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Glowing_Ingot.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Glowing_Messy_Ingot_Stack
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Glowing_Messy_Ingot_Stack.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Grindstone
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Grindstone.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 3
+Colliders: 1
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit], Material.001 [Universal Render Pipeline/Lit], M_Decal_Grime [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Hex_Floor
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Hex_Floor.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: Material.002 [Universal Render Pipeline/Lit], Material.001 [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Horseshoe
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Horseshoe.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Hot_Chisel
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Hot_Chisel.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Iron_Ingot
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Iron_Ingot.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Messy_Iron_Ingot_Stack
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Messy_Iron_Ingot_Stack.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Neat_Glowing_Ingot_Stack
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Neat_Glowing_Ingot_Stack.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Neat_Iron_Ingot_Stack
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Neat_Iron_Ingot_Stack.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Ore_Crate
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Ore_Crate.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Quenching_Trough
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Quenching_Trough.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Sledgehammer
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Sledgehammer.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Small_Hammer
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Small_Hammer.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Tool_Rack
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Tool_Rack.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Water_Bucket
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Water_Bucket.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+PREFAB: Work_Table
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Work_Table.prefab
+Animators: 0
+Skinned renderers: 0
+Renderers: 1
+Colliders: 0
+Broken material slots: 0
+Materials: M_Blacksmith_Atlas [Universal Render Pipeline/Lit], Material.002 [Universal Render Pipeline/Lit]
+Likely bones: NONE FOUND
+----------------------------------------
+
+MODELS / FBX
+--------------------------------------------------------------------------------
+MODEL: Anim_Attack_L
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Attack_L.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Attack_L
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Attack_R
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Attack_R.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Attack_R
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Death
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Death.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Death
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Death_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Death_Weapon.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Death_Weapon
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Fall
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Fall.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Fall
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Fall_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Fall_Weapon.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Fall_Weapon
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Fidget
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Fidget.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Fidget
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Hit
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Hit.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Hit
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Hit_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Hit_Weapon.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Hit_Weapon
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Idle
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Idle.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Idle
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Idle_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Idle_Weapon.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Idle_Weapon
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Jump_In
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Jump_In.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Jump_In
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Jump_In_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Jump_In_Weapon.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Jump_In_Weapon
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Jump_Out
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Jump_Out.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Jump_Out
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Jump_Out_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Jump_Out_Weapon.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Jump_Out_Weapon
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Run
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Run.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Run
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Run_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Run_Weapon.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Run_Weapon
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Take_Stone_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Take_Stone_Weapon.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Take_Stone_Weapon
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Throw
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Throw.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Throw
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Turn_L
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Turn_L.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Turn_L
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Turn_L_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Turn_L_Weapon.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Turn_L_Weapon
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Turn_R
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Turn_R.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Turn_R
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Turn_R_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Turn_R_Weapon.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Turn_R_Weapon
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Walk
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Walk.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Walk
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Walk_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Walk_Weapon.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Walk_Weapon
+Model avatar: NONE
+----------------------------------------
+MODEL: Demon_Minion
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/Models/Demon_Minion.fbx
+Rig type: Generic
+Avatar setup: CreateFromThisModel
+Import animation: False
+Clips in model: NONE
+Model avatar: Demon_MinionAvatar | valid=True | human=False
+----------------------------------------
+MODEL: Stone_Weapon
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/Models/Stone_Weapon.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: False
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: Studio
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/Studio/Studio.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Bellows_forge
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Bellows_forge/Anim_Bellows_forge.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Action_Heating
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Blacksmith
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Action, Action_Forging, Action_Hammer, Action_Heating, Action_Sharpening, Death, Hit, Idle, Idle_Hammer, Run, Wait, Wait_Hammer, Walk
+Model avatar: NONE
+----------------------------------------
+MODEL: Anim_Whetstone
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Whetstone/Anim_Whetstone.fbx
+Rig type: Generic
+Avatar setup: CopyFromOther
+Import animation: True
+Clips in model: Action_Sharpening
+Model avatar: NONE
+----------------------------------------
+MODEL: Anvil
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Anvil.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: Bellows_forge
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Bellows_forge.fbx
+Rig type: Generic
+Avatar setup: CreateFromThisModel
+Import animation: True
+Clips in model: NONE
+Model avatar: Bellows_forgeAvatar | valid=True | human=False
+----------------------------------------
+MODEL: Blank
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Blank.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: False
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: Forceps
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Forceps.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: False
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: Hammer
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Hammer.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: False
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: NPC_Blacksmith
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/NPC_Blacksmith.fbx
+Rig type: Generic
+Avatar setup: CreateFromThisModel
+Import animation: False
+Clips in model: NONE
+Model avatar: NPC_BlacksmithAvatar | valid=True | human=False
+----------------------------------------
+MODEL: Oven
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Oven.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: Sword
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Sword.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: False
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: Table
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Table.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: Trough
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Trough.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: Whetstone
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Whetstone.fbx
+Rig type: Generic
+Avatar setup: CreateFromThisModel
+Import animation: False
+Clips in model: NONE
+Model avatar: WhetstoneAvatar | valid=True | human=False
+----------------------------------------
+MODEL: UD_SAF_Anvil
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Anvil.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Anvil_Stump_Stand
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Anvil_Stump_Stand.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Bellows
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Bellows.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Blacksmith_Sign
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Blacksmith_Sign.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Coal_Pile
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Coal_Pile.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Flat_Tongs
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Flat_Tongs.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Forge
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Forge.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Glowing_Ingot_ Messy_Stack
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Glowing_Ingot_ Messy_Stack.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Glowing_Ingot_Single
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Glowing_Ingot_Single.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Glowing_Ingot_Stack
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Glowing_Ingot_Stack.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Grindwheel
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Grindwheel.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: Grindstone_Wheel|Action
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Hex_Floor
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Hex_Floor.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Horseshoe
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Horseshoe.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Hot_Chisel
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Hot_Chisel.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Iron_Ingot_ Messy_Stack
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Iron_Ingot_ Messy_Stack.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Iron_Ingot_Single
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Iron_Ingot_Single.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Iron_Ingot_Stack
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Iron_Ingot_Stack.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Ore_Crate
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Ore_Crate.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Quenching_Trough
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Quenching_Trough.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Sledgehammer
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Sledgehammer.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Small_Hammer
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Small_Hammer.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Tool_Rack
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Tool_Rack.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Water_Bucket
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Water_Bucket.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+MODEL: UD_SAF_Work_Table
+Path: Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Work_Table.fbx
+Rig type: Generic
+Avatar setup: NoAvatar
+Import animation: True
+Clips in model: NONE
+Model avatar: NONE
+----------------------------------------
+
+ANIMATOR CONTROLLERS
+--------------------------------------------------------------------------------
+CONTROLLER: Demon Animator Controller
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Demon Animator Controller.controller
+Parameters: 
+States:
+  - Base Layer/Idle -> Idle
+  - Base Layer/Walk -> Walk
+  - Base Layer/Turn_L -> Turn_L
+  - Base Layer/Turn_R -> Turn_R
+  - Base Layer/Walk 0 -> Walk
+  - Base Layer/Walk 0 0 -> Walk
+  - Base Layer/Run -> Run
+  - Base Layer/Run 0 -> Run
+  - Base Layer/Run 0 0 -> Run
+  - Base Layer/Jump_In -> Jump_In
+  - Base Layer/Jump_Out -> Jump_Out
+  - Base Layer/Fall -> Fall
+  - Base Layer/Attack_L -> Attack_L
+  - Base Layer/Attack_R -> Attack_R
+  - Base Layer/Fidget -> Fidget
+  - Base Layer/Hit -> Hit
+  - Base Layer/Death -> Death
+----------------------------------------
+CONTROLLER: Demon Weapon Animator Controller
+Path: Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Demon Weapon Animator Controller.controller
+Parameters: 
+States:
+  - Base Layer/Idle -> Idle_Weapon
+  - Base Layer/Walk -> Walk_Weapon
+  - Base Layer/Turn_L -> Turn_L_Weapon
+  - Base Layer/Turn_R -> Turn_R_Weapon
+  - Base Layer/Walk 0 -> Walk_Weapon
+  - Base Layer/Walk 0 0 -> Walk_Weapon
+  - Base Layer/Run -> Run_Weapon
+  - Base Layer/Run 0 -> Run_Weapon
+  - Base Layer/Run 0 0 -> Run_Weapon
+  - Base Layer/Jump_In -> Jump_In_Weapon
+  - Base Layer/Jump_Out -> Jump_Out_Weapon
+  - Base Layer/Fall -> Fall_Weapon
+  - Base Layer/Hit -> Hit_Weapon
+  - Base Layer/Death -> Death_Weapon
+  - Base Layer/Throw -> Throw
+  - Base Layer/Take_Stone_Weapon -> Take_Stone_Weapon
+----------------------------------------
+CONTROLLER: Forge Animator Controller
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Bellows_forge/Forge Animator Controller.controller
+Parameters: 
+States:
+  - Base Layer/Action_Heating -> Action_Heating
+----------------------------------------
+CONTROLLER: Blacksmith_Base_Animator Controller
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Blacksmith_Base_Animator Controller.controller
+Parameters: 
+States:
+  - Base Layer/Idle -> Idle
+  - Base Layer/Wait -> Wait
+  - Base Layer/Action -> Action
+  - Base Layer/Walk -> Walk
+  - Base Layer/Walk 0 -> Walk
+  - Base Layer/Walk 0 0 -> Walk
+  - Base Layer/Run -> Run
+  - Base Layer/Run 0 -> Run
+  - Base Layer/Run 0 0 -> Run
+  - Base Layer/Hit -> Hit
+  - Base Layer/Idle 0 -> Idle
+  - Base Layer/Death -> Death
+----------------------------------------
+CONTROLLER: Forging Animator Controller
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Forging Animator Controller.controller
+Parameters: 
+States:
+  - Base Layer/Action_Forging -> Action_Forging
+----------------------------------------
+CONTROLLER: Heating Animator Controller
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Heating Animator Controller.controller
+Parameters: 
+States:
+  - Base Layer/Action_Heating -> Action_Heating
+----------------------------------------
+CONTROLLER: Sharpening Animator Controller
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Sharpening Animator Controller.controller
+Parameters: 
+States:
+  - Base Layer/Action_Sharpening -> Action_Sharpening
+----------------------------------------
+CONTROLLER: Whetstone Animator Controller
+Path: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Whetstone/Whetstone Animator Controller.controller
+Parameters: 
+States:
+  - Base Layer/Action_Sharpening -> Action_Sharpening
+----------------------------------------
+
+ANIMATION CLIPS
+--------------------------------------------------------------------------------
+Action | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=2.333 | loop=False | humanMotion=False
+Action_Forging | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=3.000 | loop=True | humanMotion=False
+Action_Hammer | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=2.333 | loop=False | humanMotion=False
+Action_Heating | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Bellows_forge/Anim_Bellows_forge.fbx | length=4.800 | loop=True | humanMotion=False
+Action_Heating | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=4.800 | loop=True | humanMotion=False
+Action_Sharpening | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=2.033 | loop=True | humanMotion=False
+Action_Sharpening | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Whetstone/Anim_Whetstone.fbx | length=2.033 | loop=True | humanMotion=False
+Attack_L | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Attack_L.fbx | length=2.000 | loop=False | humanMotion=False
+Attack_R | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Attack_R.fbx | length=2.000 | loop=False | humanMotion=False
+Death | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Death.fbx | length=3.333 | loop=False | humanMotion=False
+Death | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=1.333 | loop=False | humanMotion=False
+Death_Weapon | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Death_Weapon.fbx | length=3.333 | loop=False | humanMotion=False
+Fall | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Fall.fbx | length=2.000 | loop=True | humanMotion=False
+Fall_Weapon | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Fall_Weapon.fbx | length=2.000 | loop=True | humanMotion=False
+Fidget | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Fidget.fbx | length=8.000 | loop=True | humanMotion=False
+Grindstone_Wheel|Action | path=Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Grindwheel.fbx | length=2.458 | loop=False | humanMotion=False
+Hit | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Hit.fbx | length=2.000 | loop=False | humanMotion=False
+Hit | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=0.667 | loop=False | humanMotion=False
+Hit_Weapon | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Hit_Weapon.fbx | length=2.000 | loop=False | humanMotion=False
+Idle | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Idle.fbx | length=4.000 | loop=True | humanMotion=False
+Idle | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=3.333 | loop=True | humanMotion=False
+Idle_Hammer | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=3.333 | loop=True | humanMotion=False
+Idle_Weapon | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Idle_Weapon.fbx | length=4.000 | loop=True | humanMotion=False
+Jump_In | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Jump_In.fbx | length=0.433 | loop=False | humanMotion=False
+Jump_In_Weapon | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Jump_In_Weapon.fbx | length=0.433 | loop=False | humanMotion=False
+Jump_Out | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Jump_Out.fbx | length=0.533 | loop=False | humanMotion=False
+Jump_Out_Weapon | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Jump_Out_Weapon.fbx | length=0.533 | loop=False | humanMotion=False
+Run | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Run.fbx | length=1.000 | loop=True | humanMotion=False
+Run | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=0.800 | loop=True | humanMotion=False
+Run_Weapon | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Run_Weapon.fbx | length=1.000 | loop=True | humanMotion=False
+Take_Stone_Weapon | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Take_Stone_Weapon.fbx | length=1.467 | loop=False | humanMotion=False
+Throw | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Throw.fbx | length=2.000 | loop=False | humanMotion=False
+Turn_L | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Turn_L.fbx | length=1.333 | loop=False | humanMotion=False
+Turn_L_Weapon | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Turn_L_Weapon.fbx | length=1.333 | loop=False | humanMotion=False
+Turn_R | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Turn_R.fbx | length=1.333 | loop=False | humanMotion=False
+Turn_R_Weapon | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Turn_R_Weapon.fbx | length=1.333 | loop=False | humanMotion=False
+Wait | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=16.667 | loop=True | humanMotion=False
+Wait_Hammer | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=16.667 | loop=True | humanMotion=False
+Walk | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Walk.fbx | length=1.667 | loop=True | humanMotion=False
+Walk | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=1.067 | loop=True | humanMotion=False
+Walk_Weapon | path=Assets/Lil Pupinduy/Character/Demon_Minion/AnimationClips/Anim_Walk_Weapon.fbx | length=1.667 | loop=True | humanMotion=False
+
+MATERIAL ASSETS
+--------------------------------------------------------------------------------
+Assets/Lil Pupinduy/Character/Demon_Minion/Materials/Basket Material.mat | shader=Shader Graphs/Basket Shader
+Assets/Lil Pupinduy/Character/Demon_Minion/Materials/Demon Material 2.mat | shader=Shader Graphs/Demon Shader
+Assets/Lil Pupinduy/Character/Demon_Minion/Materials/Demon Material.mat | shader=Shader Graphs/Demon Shader
+Assets/Lil Pupinduy/Character/Demon_Minion/Materials/Stone Material 2.mat | shader=Shader Graphs/Stone Shader
+Assets/Lil Pupinduy/Character/Demon_Minion/Materials/Stone Material.mat | shader=Shader Graphs/Stone Shader
+Assets/Lil Pupinduy/Character/Demon_Minion/Shaders/Smoke Material.mat | shader=Shader Graphs/Smoke Shader
+Assets/Lil Pupinduy/Character/Demon_Minion/Studio/StudioMaterial.mat | shader=Universal Render Pipeline/Lit
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Anvil_Material.mat | shader=Universal Render Pipeline/Lit
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Bellows_forge_Material.mat | shader=Universal Render Pipeline/Lit
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Hammer_Material.mat | shader=Universal Render Pipeline/Lit
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/NPC Blacksmith_Body_1_Material.mat | shader=Universal Render Pipeline/Lit
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/NPC Blacksmith_Body_2_Material.mat | shader=Universal Render Pipeline/Lit
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/NPC Blacksmith_Legs_Material.mat | shader=Universal Render Pipeline/Lit
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Oven_Material.mat | shader=Universal Render Pipeline/Lit
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Props_Material.mat | shader=Universal Render Pipeline/Lit
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Shop_Material.mat | shader=Universal Render Pipeline/Lit
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Sword_Material.mat | shader=Universal Render Pipeline/Lit
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Whetstone_Material.mat | shader=Universal Render Pipeline/Lit
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials/BG.mat | shader=Universal Render Pipeline/Lit
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials/Floor.mat | shader=Universal Render Pipeline/Lit
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials/M_Blacksmith_Atlas.mat | shader=Universal Render Pipeline/Lit
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials/M_Decal_Grime.mat | shader=Universal Render Pipeline/Lit
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials/M_Decal_Soot_Ring.mat | shader=Universal Render Pipeline/Lit
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials/Wall.mat | shader=Universal Render Pipeline/Lit
+

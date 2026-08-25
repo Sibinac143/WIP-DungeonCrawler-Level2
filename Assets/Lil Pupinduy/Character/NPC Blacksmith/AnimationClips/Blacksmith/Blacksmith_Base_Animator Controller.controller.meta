@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 75f11ff71a184c645b8aee622d35b205
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270718
+  packageName: NPC Blacksmith
+  packageVersion: 1.0
+  assetPath: Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Blacksmith_Base_Animator
+    Controller.controller
+  uploadId: 628029

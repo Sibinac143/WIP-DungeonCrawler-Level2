@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 16c31dbf4b29fc64ca86c181a5d7d814
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154284
+  packageName: "Dungeon Builder \u2013 Modular Lowpoly Medieval Kit for Fantasy RPGs"
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_lowpolyPack_ModularDungeons/shaders/sh_SOLID_standardWithVC_URP.shadergraph
+  uploadId: 756360

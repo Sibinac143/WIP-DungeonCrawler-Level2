@@ -1,0 +1,28 @@
+PHASE 5 SPIDER HEALTH + SHIELD REPORT
+Scene: Assets/Scenes/SampleScene.unity
+Built: 8/5/2026 4:10:19 AM
+
+No RandomNPCs_Generated root was found.
+Loaded PhaseThreeNavMesh for editor-time spider placement.
+Recovery Spider 01 at (183.6, 36.4, 391.5) using Spider_Black_URP
+Recovery Spider 02 at (157.6, 30.8, 394.5) using Spider_Orange_URP
+Recovery Spider 03 at (189.6, 35.6, 374.5) using Spider_Black_URP
+Recovery Spider 04 at (151.6, 26.5, 371.5) using Spider_Orange_URP
+Recovery Spider 05 at (178.6, 37.6, 405.5) using Spider_Black_URP
+Recovery Spider 06 at (163.6, 25.8, 359.5) using Spider_Orange_URP
+Recovery Spider 07 at (190.9, 41.6, 410.1) using Spider_Black_URP
+Recovery Spider 08 at (164.9, 33.3, 413.1) using Spider_Orange_URP
+Recovery Spider 09 at (196.9, 41.0, 393.1) using Spider_Black_URP
+Recovery Spider 10 at (185.9, 34.6, 424.1) using Spider_Orange_URP
+Recovery Spider 11 at (281.5, 25.0, 253.5) using Spider_Black_URP
+Recovery Spider 12 at (255.5, 20.8, 256.5) using Spider_Orange_URP
+Recovery Spider 13 at (285.9, 28.1, 240.7) using Spider_Black_URP
+Recovery Spider 14 at (249.5, 31.5, 233.5) using Spider_Orange_URP
+
+Recovery spiders created: 14
+Spider HP: 45
+Spider bite damage: 6
+Kill healing: 25
+Kill shield reward: 20
+Maximum player shield: 100
+Old ambient NPC root removed: RandomNPCs_Generated

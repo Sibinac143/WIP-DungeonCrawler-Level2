@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f17d996ff0c5a274082caec08d4cf413
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154284
+  packageName: "Dungeon Builder \u2013 Modular Lowpoly Medieval Kit for Fantasy RPGs"
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_lowpolyPack_ModularDungeons/materials/mat_metal_glass_transparent_URP.mat
+  uploadId: 756360

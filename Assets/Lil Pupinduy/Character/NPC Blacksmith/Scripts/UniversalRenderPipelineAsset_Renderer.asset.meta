@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 19775e3dca5ffe94a86a59840adb2321
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270718
+  packageName: NPC Blacksmith
+  packageVersion: 1.0
+  assetPath: Assets/Lil Pupinduy/Character/NPC Blacksmith/Scripts/UniversalRenderPipelineAsset_Renderer.asset
+  uploadId: 628029

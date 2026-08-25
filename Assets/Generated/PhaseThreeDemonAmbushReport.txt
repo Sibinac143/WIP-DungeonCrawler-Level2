@@ -1,0 +1,10 @@
+PHASE 3 DEMON AMBUSH STORY REPORT
+Scene: Assets/Scenes/SampleScene.unity
+Built: 8/5/2026 12:51:01 AM
+
+Locked the game to first-person mode.
+Disabled old Castle Guardian Boss; demon now guards the rescue story.
+Configured fully passable sliding main gate.
+Kept both wyverns guarding the main escape gate.
+Created all story interaction points.
+Created escape trigger beyond the opened gate.

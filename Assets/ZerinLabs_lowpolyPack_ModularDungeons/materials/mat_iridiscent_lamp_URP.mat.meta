@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b014962d233e8a149aac4d5fed330be3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154284
+  packageName: "Dungeon Builder \u2013 Modular Lowpoly Medieval Kit for Fantasy RPGs"
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_lowpolyPack_ModularDungeons/materials/mat_iridiscent_lamp_URP.mat
+  uploadId: 756360

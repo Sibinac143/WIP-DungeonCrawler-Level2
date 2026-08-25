@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c0b99026063ea99408d9d6c202af98ac
+timeCreated: 1547242825
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303013
+  packageName: Kuzar the Magnificent (Wyvern)
+  packageVersion: 4.0a
+  assetPath: Assets/Malbers Animations/Dragons/Common/Wyverns/Animations/Attacks/WD_FireBreath
+    Mask (U).anim
+  uploadId: 872652

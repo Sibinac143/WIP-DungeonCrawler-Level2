@@ -1,0 +1,1105 @@
+LEVEL 2 POLISH INSPECTION
+Generated: 2026-08-05 13:29:25
+Unity: 6000.5.2f1
+Scene: Assets/Scenes/SampleScene.unity
+
+SCENE LIGHTS
+------------------------------------------------------------------------------------------
+Directional Light | type=Directional | enabled=True | intensity=2 | shadows=Soft | shadowStrength=1 | range=10 | color=FFFFFFFF
+Moon Glow | type=Point | enabled=True | intensity=1.2 | shadows=None | shadowStrength=1 | range=55 | color=80ADFFFF
+Moon Light | type=Directional | enabled=True | intensity=0.42 | shadows=Soft | shadowStrength=0.72 | range=10 | color=7A94BFFF
+Rune_Light_1 | type=Point | enabled=True | intensity=2 | shadows=Soft | shadowStrength=1 | range=8 | color=1F8CFFFF
+Rune_Light_2 | type=Point | enabled=True | intensity=2 | shadows=Soft | shadowStrength=1 | range=8 | color=1F8CFFFF
+Rune_Light_3 | type=Point | enabled=True | intensity=2 | shadows=Soft | shadowStrength=1 | range=8 | color=1F8CFFFF
+Rune_Light_4 | type=Point | enabled=True | intensity=2 | shadows=Soft | shadowStrength=1 | range=8 | color=1F8CFFFF
+Sanctuary_Core_Light | type=Point | enabled=True | intensity=4.5 | shadows=Soft | shadowStrength=1 | range=18 | color=1F8CFFFF
+Storm Flash Light | type=Directional | enabled=True | intensity=0 | shadows=None | shadowStrength=1 | range=10 | color=CCE0FFFF
+
+RenderSettings | fog=True | fogMode=ExponentialSquared | fogDensity=0.0075 | ambientMode=Flat | ambientIntensity=0.95 | reflectionIntensity=0.28
+
+FPV PLAYER / HAND / WEAPON
+------------------------------------------------------------------------------------------
+Player: player
+Camera: player/Main Camera | FOV=60 | near=0.3 | far=1000
+Camera: player/ThirdPersonCameraRig/ThirdPersonCombatCamera | FOV=60 | near=0.3 | far=1000
+Candidate: player/Main Camera/SwordHolder | localPosition=(0.420, -0.360, 0.720) | localRotation=(0.00, 0.00, 0.00) | localScale=(1.000, 1.000, 1.000)
+  Renderer: player/Main Camera/SwordHolder/PlayerSword_Generated | type=MeshRenderer | enabled=True | cast=On | receive=True | materials=PP_Standard_Material[Universal Render Pipeline/Lit]
+  Renderer: player/Main Camera/SwordHolder/Player Magic Sword | type=MeshRenderer | enabled=True | cast=On | receive=True | materials=MagicSword_Iron_URP[Universal Render Pipeline/Lit]
+Candidate: player/Main Camera/SwordHolder/PlayerSword_Generated | localPosition=(0.000, 0.000, 0.000) | localRotation=(70.00, 0.00, 342.00) | localScale=(0.991, 0.991, 0.991)
+  Renderer: player/Main Camera/SwordHolder/PlayerSword_Generated | type=MeshRenderer | enabled=True | cast=On | receive=True | materials=PP_Standard_Material[Universal Render Pipeline/Lit]
+Candidate: player/Main Camera/SwordHolder/Player Magic Sword | localPosition=(0.000, 0.000, 0.000) | localRotation=(341.02, 19.07, 353.58) | localScale=(0.460, 0.460, 0.460)
+  Renderer: player/Main Camera/SwordHolder/Player Magic Sword | type=MeshRenderer | enabled=True | cast=On | receive=True | materials=MagicSword_Iron_URP[Universal Render Pipeline/Lit]
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm | localPosition=(0.000, 0.066, 0.000) | localRotation=(349.95, 342.89, 0.04) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm | localPosition=(0.000, 0.106, 0.000) | localRotation=(0.01, 359.74, 359.00) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand | localPosition=(0.000, 0.124, 0.000) | localRotation=(358.96, 315.42, 0.00) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1 | localPosition=(0.011, 0.057, -0.010) | localRotation=(1.04, 359.47, 355.46) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2 | localPosition=(0.000, 0.014, 0.000) | localRotation=(0.01, 359.93, 0.83) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3 | localPosition=(0.000, 0.012, 0.000) | localRotation=(359.96, 0.61, 11.68) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3/Bind_LeftHandIndex4 | localPosition=(0.003, 0.014, 0.001) | localRotation=(0.00, 0.00, 0.00) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1 | localPosition=(0.000, 0.056, 0.001) | localRotation=(1.04, 359.47, 355.46) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2 | localPosition=(-0.001, 0.014, 0.000) | localRotation=(0.01, 359.93, 0.83) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3 | localPosition=(-0.001, 0.012, 0.001) | localRotation=(359.96, 0.61, 11.68) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3/Bind_LeftHandMiddle4 | localPosition=(0.003, 0.015, 0.002) | localRotation=(0.00, 0.00, 0.00) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1 | localPosition=(-0.017, 0.047, 0.020) | localRotation=(1.04, 359.47, 355.46) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2 | localPosition=(0.001, 0.010, 0.002) | localRotation=(0.01, 359.93, 0.83) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3 | localPosition=(0.001, 0.008, 0.002) | localRotation=(359.96, 0.61, 11.68) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3/Bind_LeftHandPinky4 | localPosition=(0.003, 0.011, 0.002) | localRotation=(0.00, 0.00, 0.00) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1 | localPosition=(-0.010, 0.056, 0.011) | localRotation=(1.04, 359.47, 355.46) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2 | localPosition=(0.001, 0.013, 0.002) | localRotation=(0.01, 359.93, 0.83) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3 | localPosition=(0.001, 0.010, 0.002) | localRotation=(359.96, 0.61, 11.68) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3/Bind_LeftHandRing4 | localPosition=(0.004, 0.014, 0.002) | localRotation=(0.00, 0.00, 0.00) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1 | localPosition=(0.015, 0.020, 0.000) | localRotation=(358.91, 0.85, 329.40) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2 | localPosition=(0.003, 0.020, 0.000) | localRotation=(0.14, 0.91, 352.85) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3 | localPosition=(0.000, 0.018, 0.000) | localRotation=(359.99, 359.69, 343.86) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3/Bind_LeftHandThumb4 | localPosition=(-0.002, 0.020, -0.005) | localRotation=(0.00, 0.00, 0.00) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm | localPosition=(0.000, 0.066, 0.000) | localRotation=(350.12, 20.44, 358.15) | localScale=(1.000, 1.000, 1.000)
+  Renderer: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/ThirdPersonWeaponSocket/Third Person Sword | type=MeshRenderer | enabled=True | cast=On | receive=True | materials=PP_Standard_Material_URP[Universal Render Pipeline/Lit]
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm | localPosition=(0.000, 0.106, 0.000) | localRotation=(0.00, 0.14, 1.00) | localScale=(1.000, 1.000, 1.000)
+  Renderer: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/ThirdPersonWeaponSocket/Third Person Sword | type=MeshRenderer | enabled=True | cast=On | receive=True | materials=PP_Standard_Material_URP[Universal Render Pipeline/Lit]
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand | localPosition=(0.000, 0.125, 0.000) | localRotation=(358.74, 42.14, 0.00) | localScale=(1.000, 1.000, 1.000)
+  Renderer: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/ThirdPersonWeaponSocket/Third Person Sword | type=MeshRenderer | enabled=True | cast=On | receive=True | materials=PP_Standard_Material_URP[Universal Render Pipeline/Lit]
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1 | localPosition=(-0.009, 0.055, -0.009) | localRotation=(1.26, 0.19, 5.05) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2 | localPosition=(0.002, 0.016, 0.000) | localRotation=(0.02, 0.27, 355.20) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3 | localPosition=(0.000, 0.016, 0.000) | localRotation=(0.00, 359.51, 353.64) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3/Bind_RightHandIndex4 | localPosition=(-0.001, 0.013, 0.000) | localRotation=(0.00, 0.00, 0.00) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1 | localPosition=(0.001, 0.054, 0.003) | localRotation=(1.26, 0.19, 5.05) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2 | localPosition=(0.002, 0.017, 0.000) | localRotation=(0.02, 0.27, 355.20) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3 | localPosition=(0.001, 0.016, 0.001) | localRotation=(0.00, 359.51, 353.64) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3/Bind_RightHandMiddle4 | localPosition=(-0.001, 0.014, 0.000) | localRotation=(0.00, 0.00, 0.00) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1 | localPosition=(0.018, 0.042, 0.022) | localRotation=(1.26, 0.19, 5.05) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2 | localPosition=(0.002, 0.013, 0.001) | localRotation=(0.02, 0.27, 355.20) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3 | localPosition=(0.000, 0.011, 0.001) | localRotation=(0.00, 359.51, 353.64) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3/Bind_RightHandPinky4 | localPosition=(-0.002, 0.011, -0.001) | localRotation=(0.00, 0.00, 0.00) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1 | localPosition=(0.010, 0.049, 0.013) | localRotation=(1.26, 0.19, 5.05) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2 | localPosition=(0.002, 0.017, 0.001) | localRotation=(0.02, 0.27, 355.20) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3 | localPosition=(0.001, 0.013, 0.001) | localRotation=(0.00, 359.51, 353.64) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3/Bind_RightHandRing4 | localPosition=(-0.002, 0.015, 0.000) | localRotation=(0.00, 0.00, 0.00) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1 | localPosition=(-0.016, 0.020, 0.000) | localRotation=(358.57, 358.87, 30.23) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2 | localPosition=(-0.003, 0.020, 0.000) | localRotation=(0.13, 359.18, 7.98) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3 | localPosition=(-0.001, 0.014, -0.001) | localRotation=(-0.01, 0.34, 16.72) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3/Bind_RightHandThumb4 | localPosition=(0.007, 0.018, 0.000) | localRotation=(0.00, 0.00, 0.00) | localScale=(1.000, 1.000, 1.000)
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/ThirdPersonWeaponSocket | localPosition=(0.020, 0.010, 0.000) | localRotation=(0.00, 0.00, 90.00) | localScale=(0.519, 0.519, 0.519)
+  Renderer: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/ThirdPersonWeaponSocket/Third Person Sword | type=MeshRenderer | enabled=True | cast=On | receive=True | materials=PP_Standard_Material_URP[Universal Render Pipeline/Lit]
+Candidate: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/ThirdPersonWeaponSocket/Third Person Sword | localPosition=(0.000, 0.000, 0.000) | localRotation=(0.00, 0.00, 0.00) | localScale=(1.000, 1.000, 1.000)
+  Renderer: player/ThirdPersonCharacterRoot/Player Knight/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/ThirdPersonWeaponSocket/Third Person Sword | type=MeshRenderer | enabled=True | cast=On | receive=True | materials=PP_Standard_Material_URP[Universal Render Pipeline/Lit]
+
+BLACKSMITH STATES / ANIMATIONS
+------------------------------------------------------------------------------------------
+Scene object: Imprisoned Key Maker
+  Animator: Imprisoned Key Maker/Blacksmith Visual | enabled=True | applyRootMotion=False | controller=Assets/Generated/Navigation/BlacksmithStory.controller
+Scene object: Workshop Blacksmith - Forging
+  Animator: Workshop Blacksmith - Forging | enabled=True | applyRootMotion=True | controller=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Forging Animator Controller.controller
+
+Blacksmith asset paths:
+Assets/Editor/DemonBlacksmithFocusedInspector.cs
+Assets/Generated/DemonBlacksmithInspection.txt
+Assets/Generated/Navigation/BlacksmithStory.controller
+Assets/Generated/PhaseThreeBlacksmithUprightReport.txt
+Assets/Lil Pupinduy/Character/NPC Blacksmith
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Bellows_forge
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Bellows_forge/Anim_Bellows_forge.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Bellows_forge/Forge Animator Controller.controller
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Blacksmith_Base_Animator Controller.controller
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Forging Animator Controller.controller
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Heating Animator Controller.controller
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Sharpening Animator Controller.controller
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Whetstone
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Whetstone/Anim_Whetstone.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Whetstone/Whetstone Animator Controller.controller
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Anvil_Material.mat
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Bellows_forge_Material.mat
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Hammer_Material.mat
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/NPC Blacksmith_Body_1_Material.mat
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/NPC Blacksmith_Body_2_Material.mat
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/NPC Blacksmith_Legs_Material.mat
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Oven_Material.mat
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Props_Material.mat
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Shop_Material.mat
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Sword_Material.mat
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Materials/Whetstone_Material.mat
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Models
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Anvil.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Bellows_forge.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Blank.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Forceps.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Hammer.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/NPC_Blacksmith.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Oven.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Sword.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Table.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Trough.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Models/Whetstone.fbx
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Anvil.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Bellows_forge.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Blank.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Forceps.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Hammer.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V1.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V1_Forging.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V1_Heating.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V1_Sharpening.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V2.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V3.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/NPC_Blacksmith V4.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Oven.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Sword.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Table.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Trough.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Prefabs/Whetstone.prefab
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Scenes
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Scenes/SampleScene.unity
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Scripts
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Scripts/UniversalRenderPipelineAsset.asset
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Scripts/UniversalRenderPipelineAsset_Renderer.asset
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Anvil_Trough_Blank_AlbedoTransparency.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Anvil_Trough_Blank_Emission.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Anvil_Trough_Blank_MetallicSmoothness.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Anvil_Trough_Blank_Normal.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Bellows_forge_AlbedoTransparency.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Bellows_forge_MetallicSmoothness.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Bellows_forge_Normal.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Hammer_Forceps_AlbedoTransparency.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Hammer_Forceps_MetallicSmoothness.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Hammer_Forceps_Normal.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/NPC Blacksmith_Body_1_AlbedoTransparency.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/NPC Blacksmith_Body_1_MetallicSmoothness.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/NPC Blacksmith_Body_1_Normal.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/NPC Blacksmith_Body_2_AlbedoTransparency.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/NPC Blacksmith_Body_2_MetallicSmoothness.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/NPC Blacksmith_Body_2_Normal.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/NPC Blacksmith_Legs_AlbedoTransparency.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/NPC Blacksmith_Legs_MetallicSmoothness.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/NPC Blacksmith_Legs_Normal.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Oven_AlbedoTransparency.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Oven_Emission.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Oven_MetallicSmoothness.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Oven_Normal.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Sword_AlbedoTransparency.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Sword_MetallicSmoothness.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Sword_Normal.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Whetstone_AlbedoTransparency.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Whetstone_MetallicSmoothness.tga
+Assets/Lil Pupinduy/Character/NPC Blacksmith/Textures/Whetstone_Normal.tga
+Assets/Scripts/Quest/BlacksmithStoryActor.cs
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Docs
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Docs/LICENSE.txt
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Docs/README.txt
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials/BG.mat
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials/Floor.mat
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials/M_Blacksmith_Atlas.mat
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials/M_Decal_Grime.mat
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials/M_Decal_Soot_Ring.mat
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Materials/Wall.mat
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Anvil.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Anvil_Stump_Stand.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Bellows.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Blacksmith_Sign.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Coal_Pile.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Flat_Tongs.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Forge.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Glowing_Ingot_ Messy_Stack.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Glowing_Ingot_Single.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Glowing_Ingot_Stack.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Grindwheel.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Hex_Floor.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Horseshoe.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Hot_Chisel.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Iron_Ingot_ Messy_Stack.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Iron_Ingot_Single.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Iron_Ingot_Stack.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Ore_Crate.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Quenching_Trough.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Sledgehammer.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Small_Hammer.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Tool_Rack.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Water_Bucket.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Work_Table.fbx
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Anvil.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Anvil_Stump_Stand.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Bellows.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Blacksmith_Sign.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Coal_Pile.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Flat_Tongs.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Forge.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Glowing_Ingot.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Glowing_Messy_Ingot_Stack.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Grindstone.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Hex_Floor.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Horseshoe.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Hot_Chisel.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Iron_Ingot.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Messy_Iron_Ingot_Stack.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Neat_Glowing_Ingot_Stack.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Neat_Iron_Ingot_Stack.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Ore_Crate.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Quenching_Trough.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Sledgehammer.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Small_Hammer.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Tool_Rack.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Water_Bucket.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Prefabs/Work_Table.prefab
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Scenes
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Scenes/Blacksmith_Demo
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Scenes/Blacksmith_Demo.unity
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Scenes/Blacksmith_Demo/Global Volume Profile.asset
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Scenes/Blacksmith_Layout_Demo.unity
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Textures
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Textures/atlas_color.png
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Textures/atlas_emissive.png
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Textures/atlas_metallicsmooth.tga
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Textures/atlas_roughness.png
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Textures/grime_soft.png
+Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Textures/soot_ring.png
+
+Blacksmith clips:
+Action | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=2.333 | loop=False | humanMotion=False
+Action_Forging | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=3 | loop=True | humanMotion=False
+Action_Hammer | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=2.333 | loop=False | humanMotion=False
+Action_Heating | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Bellows_forge/Anim_Bellows_forge.fbx | length=4.8 | loop=True | humanMotion=False
+Action_Heating | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=4.8 | loop=True | humanMotion=False
+Action_Sharpening | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=2.033 | loop=True | humanMotion=False
+Action_Sharpening | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Whetstone/Anim_Whetstone.fbx | length=2.033 | loop=True | humanMotion=False
+Death | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=1.333 | loop=False | humanMotion=False
+Grindstone_Wheel|Action | path=Assets/UpDraft Art/Stylized Blacksmith Workshop Kit/Models/UD_SAF_Grindwheel.fbx | length=2.458 | loop=False | humanMotion=False
+Hit | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=0.667 | loop=False | humanMotion=False
+Idle | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=3.333 | loop=True | humanMotion=False
+Idle_Hammer | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=3.333 | loop=True | humanMotion=False
+Run | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=0.8 | loop=True | humanMotion=False
+Wait | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=16.667 | loop=True | humanMotion=False
+Wait_Hammer | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=16.667 | loop=True | humanMotion=False
+Walk | path=Assets/Lil Pupinduy/Character/NPC Blacksmith/AnimationClips/Blacksmith/Anim_Blacksmith.fbx | length=1.067 | loop=True | humanMotion=False
+
+CASTLE / DUNGEON ASSETS
+------------------------------------------------------------------------------------------
+Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence/PT_Modular_Gate_Wood_01.prefab
+Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Gate_Wood_01.fbx
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/auxMeshes/Plinth.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/auxMeshes/testPlane.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/floor_button_skull_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/floor_button_skull_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/floor_decoration_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/floor_decoration_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/floor_decoration_C.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/floor_stones.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/floor_stones_frame.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/floor_tiles.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/floor_tiles_broken.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/floor_tiles_frame.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/floor_tiles_shifted.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/floor_tilesBig_frame.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_arrow.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_arrowQuiver.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_axe.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_axeBattle.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_axeBig.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_barrel.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bench.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bench_broken.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_benchSmall.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bookClosed_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bookClosed_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bookClosed_C.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bookClosed_D.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bookOpen_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bookOpen_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bottle_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bottle_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bottle_C.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bottle_D.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_boulder.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bow.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_bucket.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_candle_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_candle_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_candle_C.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_candle_D.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_candleGroup_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_candleGroup_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_chain_arch_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_chain_arch_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_chain_base.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_chain_hang_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_chain_hang_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_chain_hang_C.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_chest_close.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_chestOpen_body.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_chestOpen_lid.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_closet.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_closetSmall.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_coffin_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_coffin_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_coffin_D.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_coffin_E.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_coffinCap.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_column_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_column_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_column_C.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_column_D.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_column_E.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_columnRound_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_columnRound_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_columnRound_C.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_columnSkull_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_columnSkull_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_columnSkull_large.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_crate.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_dagger.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_gateDoor_left.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_gateDoor_right.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_lamp.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_longSword.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_metalDoor_left.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_metalDoor_right.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_milestone_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_milestone_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_milestone_C.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_pillar_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_pillar_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_pillar_C.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_pillar_D.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_pillar_E.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_pillar_F.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_plateBig.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_plateRound_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_plateRound_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_plateRound_C.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_plateSmall.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_scroll.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_shield.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_shield_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_shield_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_shieldCross.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_skull.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_spear.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_stoneBrick_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_stoneBrick_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_stoneBrick_column_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_stoneBrick_column_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_sword.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_tableBig.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_tableBigWood.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_tableSmall.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_tankard.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_tomb.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_trap_dart.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_weaponRack_empty.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_weaponRack_full.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_well.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_woodenBeam_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_woodenBeam_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_woodenDoor_left.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_woodenDoor_right.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_woodPiece_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/obj_woodPiece_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_archPointy.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_archPointy_bricks.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_archPointy_bricksBroken.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_archPointy_decorated.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_archRound.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_bricks.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_bricksBroken.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_clean.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_small_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_small_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_stairs.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_window_A.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_window_B.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_window_C.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_window_D.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets/wall_window_E.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/floor_button_skull_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/floor_button_skull_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/floor_decoration_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/floor_decoration_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/floor_decoration_C_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/floor_stones_frame_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/floor_stones_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/floor_tiles_broken_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/floor_tiles_frame_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/floor_tiles_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/floor_tiles_shifted_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/floor_tilesBig_frame_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_arrow_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_arrowQuiver_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_axe_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_axeBattle_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_axeBig_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_barrel_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bench_broken_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bench_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_benchSmall_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bookClosed_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bookClosed_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bookClosed_C_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bookClosed_D_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bookOpen_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bookOpen_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bottle_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bottle_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bottle_C_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bottle_D_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_boulder_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bow_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_bucket_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_candle_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_candle_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_candle_C_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_candle_D_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_candleGroup_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_candleGroup_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_chain_arch_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_chain_arch_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_chain_base_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_chain_hang_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_chain_hang_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_chain_hang_C_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_chest_close_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_chestOpen_body_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_closet_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_closetSmall_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_coffin_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_coffin_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_coffin_D_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_coffin_E_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_coffinCap_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_column_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_column_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_column_C_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_column_D_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_column_E_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_columnRound_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_columnRound_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_columnRound_C_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_columnSkull_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_columnSkull_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_columnSkull_large_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_crate_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_dagger_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_gateDoor_left_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_gateDoor_right_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_lamp_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_longSword_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_metalDoor_left_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_metalDoor_right_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_milestone_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_milestone_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_milestone_C_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_pillar_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_pillar_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_pillar_C_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_pillar_D_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_pillar_E_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_pillar_F_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_plateBig_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_plateRound_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_plateRound_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_plateRound_C_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_plateSmall_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_scroll_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_shield_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_shield_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_shield_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_shieldCross_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_skull_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_spear_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_stoneBrick_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_stoneBrick_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_stoneBrick_column_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_stoneBrick_column_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_sword_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_tableBig_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_tableBigWood_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_tableSmall_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_tankard_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_tomb_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_trap_dart_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_weaponRack_empty_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_weaponRack_full_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_well_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_woodenBeam_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_woodenBeam_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_woodenDoor_left_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_woodenDoor_right_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_woodPiece_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/obj_woodPiece_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_archPointy_bricks_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_archPointy_bricksBroken_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_archPointy_decorated_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_archPointy_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_archRound_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_bricks_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_bricksBroken_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_clean_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_small_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_small_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_stairs_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_window_A_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_window_B_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_window_C_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_window_E_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/meshes/dungeonAssets_LOW/wall_window_LOW.FBX
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/Aux meshes/Plinth.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/Aux meshes/testPlane.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/floor_button_skull_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/floor_button_skull_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/floor_decoration_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/floor_decoration_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/floor_decoration_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/floor_stones.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/floor_stones_frame.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/floor_tiles.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/floor_tiles_broken.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/floor_tiles_frame.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/floor_tiles_shifted.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/floor_tilesBig_frame.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_arrow.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_arrowQuiver.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_axe.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_axeBattle.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_axeBig.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_barrel.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bench.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bench_broken.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_benchSmall.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bookClosed_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bookClosed_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bookClosed_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bookClosed_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bookOpen_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bookOpen_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bottle_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bottle_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bottle_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bottle_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_boulder.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bow.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_bucket.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_candle_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_candle_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_candle_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_candle_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_candleGroup_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_candleGroup_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_chain_arch_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_chain_arch_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_chain_base.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_chain_hang_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_chain_hang_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_chain_hang_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_chest_close.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_chestOpen_body.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_closet.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_closetSmall.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_coffin_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_coffin_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_coffin_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_coffin_E.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_coffinCap.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_column_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_column_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_column_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_column_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_column_E.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_columnRound_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_columnRound_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_columnRound_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_columnSkull_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_columnSkull_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_columnSkull_large.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_crate.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_dagger.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_lamp.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_longSword.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_milestone_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_milestone_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_milestone_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_pillar_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_pillar_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_pillar_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_pillar_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_pillar_E.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_pillar_F.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_plateBig.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_plateRound_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_plateRound_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_plateRound_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_plateSmall.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_scroll.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_shield.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_shield_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_shield_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_shieldCross.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_skull.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_spear.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_stoneBrick_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_stoneBrick_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_stoneBrick_column_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_stoneBrick_column_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_sword.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_tableBig.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_tableBigWood.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_tableSmall.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_tankard.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_tomb.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_trap_dart.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_weaponRack_empty.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_weaponRack_full.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_well.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_woodenBeam_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_woodenBeam_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_woodenDoor_left.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_woodenDoor_right.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_woodPiece_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/obj_woodPiece_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_archPointy.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_archPointy_bricks.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_archPointy_bricksBroken.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_archPointy_decorated.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_archPointy_decorated_gate.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_archPointy_gate.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_archRound.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_archRound_gate.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_bricks.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_bricksBroken.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_clean.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_small_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_small_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_stairs.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_window_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_window_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_window_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_window_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH/wall_window_E.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/floor_button_skull_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/floor_button_skull_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/floor_decoration_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/floor_decoration_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/floor_decoration_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/floor_stones.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/floor_stones_frame.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/floor_tiles.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/floor_tiles_broken.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/floor_tiles_frame.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/floor_tiles_shifted.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/floor_tilesBig_frame.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_arrow.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_arrowQuiver.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_axe.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_axeBattle.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_axeBig.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_barrel.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bench.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bench_broken.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_benchSmall.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bookClosed_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bookClosed_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bookClosed_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bookClosed_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bookOpen_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bookOpen_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bottle_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bottle_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bottle_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bottle_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_boulder.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bow.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_bucket.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_candle_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_candle_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_candle_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_candle_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_candleGroup_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_candleGroup_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_chain_arch_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_chain_arch_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_chain_base.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_chain_hang_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_chain_hang_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_chain_hang_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_chest_close.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_chestOpen_body.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_closet.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_closetSmall.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_coffin_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_coffin_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_coffin_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_coffin_E.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_coffinCap.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_column_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_column_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_column_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_column_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_column_E.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_columnRound_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_columnRound_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_columnRound_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_columnSkull_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_columnSkull_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_columnSkull_large.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_crate.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_dagger.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_lamp.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_longSword.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_milestone_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_milestone_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_milestone_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_pillar_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_pillar_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_pillar_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_pillar_D.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_pillar_E.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_pillar_F.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_plateBig.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_plateRound_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_plateRound_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_plateRound_C.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_plateSmall.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_scroll.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_shield.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_shield_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_shield_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_shieldCross.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_skull.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_spear.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_stoneBrick_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_stoneBrick_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_stoneBrick_column_A.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_stoneBrick_column_B.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_sword.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_tableBig.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_tableBigWood.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_tableSmall.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_tankard.prefab
+Assets/ZerinLabs_lowpolyPack_ModularDungeons/prefabs/modularDungeonPiecesHIGH_URP/obj_tomb.prefab
+
+Current castle-related scene objects:
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE | position=(0.00, 0.00, 0.00) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON | position=(0.00, 0.00, 0.00) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 0_0 | position=(82.11, 8.41, 187.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 0_1 | position=(82.11, 8.64, 191.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 0_-1 | position=(82.11, 7.30, 183.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 0_2 | position=(82.11, 8.64, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 0_-2 | position=(82.11, 6.35, 179.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 0_3 | position=(82.11, 8.43, 199.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 0_-3 | position=(82.11, 6.29, 175.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 0_4 | position=(82.11, 7.69, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 0_-4 | position=(82.11, 6.29, 171.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 1_0 | position=(86.11, 6.86, 187.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -1_0 | position=(78.11, 8.93, 187.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 1_1 | position=(86.11, 7.05, 191.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 1_-1 | position=(86.11, 6.36, 183.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -1_1 | position=(78.11, 8.99, 191.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -1_-1 | position=(78.11, 7.98, 183.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 1_2 | position=(86.11, 7.05, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 1_-2 | position=(86.11, 6.29, 179.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -1_2 | position=(78.11, 8.99, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -1_-2 | position=(78.11, 6.57, 179.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 1_3 | position=(86.11, 6.84, 199.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 1_-3 | position=(86.11, 6.29, 175.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -1_3 | position=(78.11, 8.99, 199.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -1_-3 | position=(78.11, 6.29, 175.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 1_4 | position=(86.11, 6.37, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 1_-4 | position=(86.11, 6.29, 171.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -1_4 | position=(78.11, 8.76, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -1_-4 | position=(78.11, 6.29, 171.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 2_0 | position=(90.11, 6.29, 187.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -2_0 | position=(74.11, 8.96, 187.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 2_1 | position=(90.11, 6.29, 191.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 2_-1 | position=(90.11, 6.29, 183.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -2_1 | position=(74.11, 9.01, 191.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -2_-1 | position=(74.11, 8.04, 183.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 2_2 | position=(90.11, 6.29, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 2_-2 | position=(90.11, 6.29, 179.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -2_2 | position=(74.11, 9.01, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -2_-2 | position=(74.11, 6.60, 179.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 2_3 | position=(90.11, 6.21, 199.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 2_-3 | position=(90.11, 6.29, 175.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -2_3 | position=(74.11, 9.01, 199.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -2_-3 | position=(74.11, 6.29, 175.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 2_4 | position=(90.11, 6.02, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 2_-4 | position=(90.11, 6.29, 171.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -2_4 | position=(74.11, 9.01, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -2_-4 | position=(74.11, 6.29, 171.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 3_0 | position=(94.11, 6.29, 187.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -3_0 | position=(70.11, 8.96, 187.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 3_1 | position=(94.11, 6.29, 191.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 3_-1 | position=(94.11, 6.29, 183.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -3_1 | position=(70.11, 9.01, 191.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -3_-1 | position=(70.11, 8.04, 183.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 3_2 | position=(94.11, 6.29, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 3_-2 | position=(94.11, 6.29, 179.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -3_2 | position=(70.11, 9.01, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -3_-2 | position=(70.11, 6.60, 179.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 3_3 | position=(94.11, 6.21, 199.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 3_-3 | position=(94.11, 6.29, 175.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -3_3 | position=(70.11, 9.01, 199.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -3_-3 | position=(70.11, 6.29, 175.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 3_4 | position=(94.11, 6.02, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 3_-4 | position=(94.11, 6.29, 171.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -3_4 | position=(70.11, 9.01, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -3_-4 | position=(70.11, 6.29, 171.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 4_0 | position=(98.11, 6.29, 187.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -4_0 | position=(66.11, 8.96, 187.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 4_1 | position=(98.11, 6.29, 191.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 4_-1 | position=(98.11, 6.29, 183.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -4_1 | position=(66.11, 9.01, 191.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -4_-1 | position=(66.11, 8.04, 183.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 4_2 | position=(98.11, 6.29, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 4_-2 | position=(98.11, 6.29, 179.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -4_2 | position=(66.11, 9.01, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -4_-2 | position=(66.11, 6.60, 179.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 4_3 | position=(98.11, 6.21, 199.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 4_-3 | position=(98.11, 6.29, 175.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -4_3 | position=(66.11, 9.01, 199.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -4_-3 | position=(66.11, 6.29, 175.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 4_4 | position=(98.11, 6.02, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor 4_-4 | position=(98.11, 6.29, 171.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -4_4 | position=(66.11, 9.01, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Floor -4_-4 | position=(66.11, 6.29, 171.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Front Gate | position=(82.11, 6.29, 167.89) | scale=(1.35, 1.35, 1.35)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Front Wall 1 | position=(90.21, 6.29, 167.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Front Wall -1 | position=(74.01, 6.29, 167.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Front Wall 2 | position=(98.31, 6.48, 167.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Front Wall -2 | position=(65.91, 6.48, 167.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_BOSS_ARENA/Castle Guardian Boss | position=(106.11, 9.18, 227.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall 0 | position=(46.11, 6.43, 187.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall 1 | position=(46.11, 6.60, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall -1 | position=(46.11, 6.24, 179.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall 2 | position=(46.11, 7.20, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall -2 | position=(46.11, 6.01, 171.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall 3 | position=(46.11, 7.74, 211.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall -3 | position=(46.11, 5.82, 163.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall 4 | position=(46.11, 8.76, 219.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall -4 | position=(46.11, 5.65, 155.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall 0 | position=(82.11, 7.08, 223.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall 1 | position=(90.11, 6.04, 223.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall -1 | position=(74.11, 9.86, 223.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall 2 | position=(98.11, 5.85, 223.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall -2 | position=(66.11, 9.84, 223.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall 3 | position=(106.11, 5.85, 223.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall -3 | position=(58.11, 9.25, 223.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall 4 | position=(114.11, 5.85, 223.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall -4 | position=(50.11, 9.09, 223.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall 0 | position=(118.11, 5.70, 187.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall 1 | position=(118.11, 5.58, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall -1 | position=(118.11, 5.93, 179.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall 2 | position=(118.11, 5.70, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall -2 | position=(118.11, 5.84, 171.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall 3 | position=(118.11, 5.85, 211.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall -3 | position=(118.11, 6.12, 163.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall 4 | position=(118.11, 5.85, 219.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall -4 | position=(118.11, 6.47, 155.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Stairs | position=(58.11, 8.28, 212.89) | scale=(0.82, 0.82, 0.82)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_BOSS_ARENA | position=(0.00, 0.00, 0.00) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR | position=(0.00, 0.00, 0.00) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK | position=(0.00, 0.00, 0.00) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Arch 3 | position=(70.86, 8.40, 199.89) | scale=(0.92, 0.92, 0.92)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Broken Bench 2 | position=(69.18, 9.05, 203.50) | scale=(0.90, 0.90, 0.90)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Candle 0 | position=(75.80, 8.89, 207.71) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Candle 2 | position=(74.30, 9.00, 201.71) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Candle 4 | position=(72.80, 9.00, 195.71) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Entrance Arch | position=(73.11, 9.29, 208.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Floor 0 | position=(73.11, 9.01, 208.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Floor 1 | position=(72.36, 9.01, 205.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Floor 2 | position=(71.61, 9.01, 202.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Floor 3 | position=(70.86, 9.01, 199.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Floor 4 | position=(70.11, 9.01, 196.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Left Wall 0 | position=(77.18, 8.67, 207.88) | scale=(0.72, 0.78, 0.72)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Left Wall 1 | position=(76.43, 8.93, 204.88) | scale=(0.72, 0.78, 0.72)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Left Wall 2 | position=(75.68, 9.01, 201.88) | scale=(0.72, 0.78, 0.72)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Left Wall 3 | position=(74.93, 9.16, 198.88) | scale=(0.72, 0.78, 0.72)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Left Wall 4 | position=(74.18, 9.01, 195.88) | scale=(0.72, 0.78, 0.72)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Right Wall 0 | position=(69.03, 9.01, 209.91) | scale=(0.72, 0.78, 0.72)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Right Wall 1 | position=(68.28, 9.01, 206.91) | scale=(0.72, 0.78, 0.72)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Right Wall 2 | position=(67.53, 9.16, 203.91) | scale=(0.72, 0.78, 0.72)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Right Wall 3 | position=(66.78, 9.01, 200.91) | scale=(0.72, 0.78, 0.72)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Right Wall 4 | position=(66.03, 9.01, 197.91) | scale=(0.72, 0.78, 0.72)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Skull 2 | position=(69.28, 9.00, 202.65) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/02_ABANDONED_VILLAGE/KEY_MAKER_BROKEN_SHOP/Final Gate Key Preview | position=(275.27, 25.07, 246.33) | scale=(6.00, 6.00, 6.00)
+PHASE_04_FINAL_GATE/Gate Battle Objective | position=(174.16, 33.35, 390.02) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Guardian Left | position=(184.85, 34.77, 385.78) | scale=(0.68, 0.68, 0.68)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Guardian Right | position=(163.47, 32.04, 394.26) | scale=(0.68, 0.68, 0.68)
+PHASE_04_FINAL_GATE/Gate Horror Guardian Left | position=(184.85, 34.71, 385.78) | scale=(1.19, 1.19, 1.19)
+PHASE_04_FINAL_GATE/Gate Horror Guardian Right | position=(163.47, 31.99, 394.26) | scale=(1.19, 1.19, 1.19)
+PHASE_04_FINAL_GATE/Gate Throw Strike Point | position=(176.29, 35.59, 395.41) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Wall Left 1 | position=(185.15, 39.63, 402.11) | scale=(1.45, 1.45, 1.45)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Wall Left 2 | position=(196.85, 44.01, 402.11) | scale=(1.45, 1.45, 1.45)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Wall Left 3 | position=(208.55, 47.09, 402.11) | scale=(1.45, 1.45, 1.45)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Wall Right 1 | position=(172.75, 35.40, 402.11) | scale=(1.45, 1.45, 1.45)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Wall Right 2 | position=(161.05, 31.93, 402.11) | scale=(1.45, 1.45, 1.45)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Wall Right 3 | position=(149.35, 29.01, 402.11) | scale=(1.45, 1.45, 1.45)
+Imprisoned Key Maker | position=(62.03, 9.10, 205.99) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Back Wall 0 | position=(59.11, 8.52, 205.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Back Wall 1 | position=(59.11, 8.72, 213.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Back Wall -1 | position=(59.11, 8.52, 197.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Chain 0 | position=(61.31, 8.90, 205.89) | scale=(1.15, 1.15, 1.15)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Chain 1 | position=(61.31, 9.40, 213.89) | scale=(1.15, 1.15, 1.15)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Chain -1 | position=(61.31, 8.39, 197.89) | scale=(1.15, 1.15, 1.15)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Coffin 1 | position=(61.71, 8.97, 215.29) | scale=(0.70, 0.70, 0.70)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Coffin -1 | position=(61.71, 8.96, 199.29) | scale=(0.70, 0.70, 0.70)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Door Left 0 | position=(66.36, 10.64, 205.01) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Door Left 1 | position=(66.36, 10.64, 213.01) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Door Left -1 | position=(66.36, 10.64, 197.01) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Door Right 0 | position=(66.36, 10.64, 206.77) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Door Right 1 | position=(66.36, 10.64, 214.77) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Door Right -1 | position=(66.36, 10.64, 198.77) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Side Wall A 0 | position=(63.11, 9.00, 201.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Side Wall A 1 | position=(63.11, 9.00, 209.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Side Wall A -1 | position=(63.11, 9.00, 193.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Side Wall B 0 | position=(63.11, 9.00, 209.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Side Wall B 1 | position=(63.11, 9.00, 217.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Left Cell Side Wall B -1 | position=(63.11, 9.00, 201.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Left Gate Chain | position=(182.35, 38.62, 402.61) | scale=(1.70, 1.70, 1.70)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Left Gate Skull Column | position=(185.05, 39.63, 402.81) | scale=(1.25, 1.25, 1.25)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Main Gate Arch | position=(178.95, 37.36, 402.11) | scale=(1.50, 1.50, 1.50)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Main Gate Door Left | position=(180.20, 41.92, 402.11) | scale=(1.50, 1.50, 1.50)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Main Gate Door Right | position=(177.70, 41.11, 402.11) | scale=(1.50, 1.50, 1.50)
+PHASE_03_QUEST_SYSTEM/Main Gate Passage Controller | position=(0.00, 0.00, 0.00) | scale=(1.00, 1.00, 1.00)
+PHASE_04_FINAL_GATE | position=(0.00, 0.00, 0.00) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Hall Candle 0 | position=(67.81, 9.00, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Hall Candle 1 | position=(67.81, 9.00, 207.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Hall Candle -1 | position=(67.81, 9.00, 199.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Hall Candle 2 | position=(67.81, 9.00, 211.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Hall Candle -2 | position=(67.81, 9.00, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Hall Floor 0 | position=(70.11, 9.01, 203.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Hall Floor 1 | position=(70.11, 9.01, 207.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Hall Floor -1 | position=(70.11, 9.01, 199.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Hall Floor 2 | position=(70.11, 9.01, 211.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Hall Floor -2 | position=(70.11, 9.01, 195.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Rear Wall | position=(70.11, 9.01, 215.89) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Warning Skull | position=(71.61, 9.00, 198.89) | scale=(1.20, 1.20, 1.20)
+RuneSanctuary_Generated/01_Entrance/Sanctuary_Gate/PT_Modular_Gate_Wood_01_left | position=(72.85, 11.36, 288.05) | scale=(1.15, 1.15, 1.15)
+RuneSanctuary_Generated/01_Entrance/Sanctuary_Gate/PT_Modular_Gate_Wood_01_poles | position=(70.00, 11.99, 288.15) | scale=(1.15, 1.15, 1.15)
+RuneSanctuary_Generated/01_Entrance/Sanctuary_Gate/PT_Modular_Gate_Wood_01_right | position=(67.15, 11.36, 288.05) | scale=(1.15, 1.15, 1.15)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Main Gate Arch/Quest Gate Frame Colliders | position=(178.95, 37.36, 402.11) | scale=(1.50, 1.50, 1.50)
+PHASE_03_QUEST_SYSTEM/Quest Point - Castle Entrance | position=(88.94, 7.48, 167.68) | scale=(1.00, 1.00, 1.00)
+PHASE_03_QUEST_SYSTEM/Quest Point - Main Gate | position=(176.20, 38.55, 395.19) | scale=(1.00, 1.00, 1.00)
+PHASE_03_QUEST_SYSTEM/Quest Point - Prison Blacksmith | position=(61.89, 10.30, 205.82) | scale=(1.00, 1.00, 1.00)
+PHASE_03_QUEST_SYSTEM/Quest Point - Receive Gate Key | position=(270.17, 26.09, 247.73) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Back Wall 0 | position=(81.11, 7.69, 205.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Back Wall 1 | position=(81.11, 7.52, 213.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Back Wall -1 | position=(81.11, 8.82, 197.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Chain 0 | position=(78.91, 7.52, 205.89) | scale=(1.15, 1.15, 1.15)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Chain 1 | position=(78.91, 8.63, 213.89) | scale=(1.15, 1.15, 1.15)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Chain -1 | position=(78.91, 6.58, 197.89) | scale=(1.15, 1.15, 1.15)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Coffin 0 | position=(78.51, 8.36, 207.29) | scale=(0.70, 0.70, 0.70)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Coffin 1 | position=(78.51, 8.26, 215.29) | scale=(0.70, 0.70, 0.70)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Coffin -1 | position=(78.51, 8.98, 199.29) | scale=(0.70, 0.70, 0.70)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Door Left 0 | position=(73.86, 10.64, 205.01) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Door Left 1 | position=(73.86, 10.64, 213.01) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Door Left -1 | position=(73.86, 10.64, 197.01) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Door Right 0 | position=(73.86, 10.64, 206.77) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Door Right 1 | position=(73.86, 10.64, 214.77) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Door Right -1 | position=(73.86, 10.64, 198.77) | scale=(1.00, 1.00, 1.00)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Side Wall A 0 | position=(77.11, 8.99, 201.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Side Wall A 1 | position=(77.11, 8.64, 209.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Side Wall A -1 | position=(77.11, 9.01, 193.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Side Wall B 0 | position=(77.11, 8.64, 209.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Side Wall B 1 | position=(77.11, 8.64, 217.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Right Cell Side Wall B -1 | position=(77.11, 8.99, 201.89) | scale=(0.85, 0.85, 0.85)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Right Gate Chain | position=(175.55, 36.32, 402.61) | scale=(1.70, 1.70, 1.70)
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Right Gate Skull Column | position=(172.85, 35.51, 402.81) | scale=(1.25, 1.25, 1.25)
+PHASE_03_QUEST_SYSTEM/ROUTE_01_PRISON_TO_AMBUSH | position=(0.00, 0.00, 0.00) | scale=(1.00, 1.00, 1.00)
+RuneSanctuary_Generated/01_Entrance/Sanctuary_Gate | position=(70.00, 11.36, 288.00) | scale=(1.15, 1.15, 1.15)
+PHASE_03_QUEST_SYSTEM/Story Point - Prison | position=(62.03, 9.10, 205.99) | scale=(1.00, 1.00, 1.00)
+
+SHADOW SUMMARY
+------------------------------------------------------------------------------------------
+Scene renderers: 649
+Casting shadows: 648
+Not casting shadows: 1
+Receiving shadows: 648
+Not receiving shadows: 1
+
+Largest shadow-casting renderers:
+PHASE_01_ACTUAL_ASSETS/02_ABANDONED_VILLAGE/Village House B | type=MeshRenderer | bounds=(14.16, 9.52, 13.67) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/02_ABANDONED_VILLAGE/Village House A | type=MeshRenderer | bounds=(13.27, 10.08, 14.02) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/02_ABANDONED_VILLAGE/Village House D | type=MeshRenderer | bounds=(13.84, 8.96, 13.60) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/02_ABANDONED_VILLAGE/Village House C | type=MeshRenderer | bounds=(13.41, 8.68, 13.18) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_BOSS_ARENA/Castle Guardian Boss/Kuzar3_Body | type=SkinnedMeshRenderer | bounds=(14.68, 3.79, 12.74) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/02_ABANDONED_VILLAGE/Village Mill | type=MeshRenderer | bounds=(9.05, 13.17, 10.32) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/02_ABANDONED_VILLAGE/KEY_MAKER_BROKEN_SHOP/Key Maker House | type=MeshRenderer | bounds=(11.30, 9.80, 10.25) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Guardian Left/Kuzar3_Body | type=SkinnedMeshRenderer | bounds=(12.67, 2.58, 12.01) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Guardian Right/Kuzar3_Body | type=SkinnedMeshRenderer | bounds=(12.25, 2.58, 11.43) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Main Gate Arch | type=MeshRenderer | bounds=(12.08, 10.80, 2.88) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Wall Left 3 | type=MeshRenderer | bounds=(11.68, 9.03, 3.56) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Wall Right 3 | type=MeshRenderer | bounds=(11.68, 9.03, 3.56) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Front Gate | type=MeshRenderer | bounds=(10.88, 9.72, 2.59) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Wall Right 1 | type=MeshRenderer | bounds=(11.68, 8.76, 1.24) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Wall Left 2 | type=MeshRenderer | bounds=(11.68, 8.76, 1.24) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Wall Left 1 | type=MeshRenderer | bounds=(11.68, 8.76, 1.24) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/01_MAIN_ESCAPE_GATE/Gate Wall Right 2 | type=MeshRenderer | bounds=(11.68, 8.76, 1.24) | cast=On | receive=True
+RuneSanctuary_Generated/03_Ritual_Arena/Central_Rune_Altar/PT_Ore_Rock_01_split_LOD0 | type=MeshRenderer | bounds=(9.76, 0.62, 10.31) | cast=On | receive=True
+RuneSanctuary_Generated/03_Ritual_Arena/Central_Rune_Altar/PT_Ore_Rock_01_split_LOD1 | type=MeshRenderer | bounds=(9.75, 0.61, 10.27) | cast=On | receive=True
+RuneSanctuary_Generated/03_Ritual_Arena/Central_Rune_Altar/PT_Ore_Rock_01_split_LOD2 | type=MeshRenderer | bounds=(9.57, 0.60, 10.13) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_BOSS_ARENA/Castle Guardian Boss/Kuzar3_Nails | type=SkinnedMeshRenderer | bounds=(8.81, 2.07, 8.67) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/02_ABANDONED_VILLAGE/Village Fence West 0 | type=MeshRenderer | bounds=(0.42, 2.89, 11.84) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/02_ABANDONED_VILLAGE/Village Fence West 1 | type=MeshRenderer | bounds=(0.42, 2.89, 11.84) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/02_ABANDONED_VILLAGE/Village Fence West 2 | type=MeshRenderer | bounds=(0.42, 2.89, 11.84) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/02_ABANDONED_VILLAGE/Village Fence West 3 | type=MeshRenderer | bounds=(0.42, 2.89, 11.84) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Stairs | type=MeshRenderer | bounds=(9.43, 5.20, 4.89) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_14/PT_Fruit_Tree_01_dead_LOD1 | type=MeshRenderer | bounds=(6.09, 5.81, 6.49) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_14/PT_Fruit_Tree_01_dead_LOD2 | type=MeshRenderer | bounds=(6.09, 5.81, 6.49) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_14/PT_Fruit_Tree_01_dead_LOD0 | type=MeshRenderer | bounds=(6.09, 5.81, 6.48) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_DUNGEON_CORRIDOR/Dungeon Entrance Arch | type=MeshRenderer | bounds=(8.09, 6.04, 3.06) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_12/PT_Fruit_Tree_01_dead_LOD2 | type=MeshRenderer | bounds=(6.47, 5.81, 5.89) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_12/PT_Fruit_Tree_01_dead_LOD1 | type=MeshRenderer | bounds=(6.47, 5.81, 5.89) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_12/PT_Fruit_Tree_01_dead_LOD0 | type=MeshRenderer | bounds=(6.46, 5.81, 5.89) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall 2 | type=MeshRenderer | bounds=(2.46, 6.23, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall -1 | type=MeshRenderer | bounds=(2.46, 6.23, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall 1 | type=MeshRenderer | bounds=(8.06, 6.23, 2.46) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Front Wall 2 | type=MeshRenderer | bounds=(8.06, 6.23, 2.46) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Front Wall -2 | type=MeshRenderer | bounds=(8.06, 6.23, 2.46) | cast=On | receive=True
+RuneSanctuary_Generated/01_Entrance/Entrance_DeadTree_Left/PT_Fruit_Tree_01_dead_LOD2 | type=MeshRenderer | bounds=(5.62, 5.81, 6.39) | cast=On | receive=True
+RuneSanctuary_Generated/01_Entrance/Entrance_DeadTree_Left/PT_Fruit_Tree_01_dead_LOD1 | type=MeshRenderer | bounds=(5.62, 5.81, 6.39) | cast=On | receive=True
+RuneSanctuary_Generated/01_Entrance/Entrance_DeadTree_Left/PT_Fruit_Tree_01_dead_LOD0 | type=MeshRenderer | bounds=(5.62, 5.81, 6.38) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/02_ABANDONED_VILLAGE/Village Gallows | type=MeshRenderer | bounds=(6.31, 4.11, 6.84) | cast=On | receive=True
+RuneSanctuary_Generated/01_Entrance/Entrance_DeadTree_Right/PT_Fruit_Tree_01_dead_LOD2 | type=MeshRenderer | bounds=(5.81, 5.53, 6.18) | cast=On | receive=True
+RuneSanctuary_Generated/01_Entrance/Entrance_DeadTree_Right/PT_Fruit_Tree_01_dead_LOD1 | type=MeshRenderer | bounds=(5.81, 5.53, 6.18) | cast=On | receive=True
+RuneSanctuary_Generated/01_Entrance/Entrance_DeadTree_Right/PT_Fruit_Tree_01_dead_LOD0 | type=MeshRenderer | bounds=(5.81, 5.53, 6.17) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_08/PT_Fruit_Tree_01_dead_LOD1 | type=MeshRenderer | bounds=(6.30, 5.81, 5.38) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_08/PT_Fruit_Tree_01_dead_LOD2 | type=MeshRenderer | bounds=(6.30, 5.81, 5.38) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_08/PT_Fruit_Tree_01_dead_LOD0 | type=MeshRenderer | bounds=(6.29, 5.81, 5.39) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall -4 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall 4 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall 4 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall -3 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall 2 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall -3 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall 1 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall 1 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall 3 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall -2 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall -4 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall 3 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall 0 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall -1 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Right Wall 0 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Left Wall -2 | type=MeshRenderer | bounds=(0.86, 6.04, 8.06) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall 2 | type=MeshRenderer | bounds=(8.06, 6.04, 0.86) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall 3 | type=MeshRenderer | bounds=(8.06, 6.04, 0.86) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Front Wall -1 | type=MeshRenderer | bounds=(8.06, 6.04, 0.86) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Front Wall 1 | type=MeshRenderer | bounds=(8.06, 6.04, 0.86) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall -3 | type=MeshRenderer | bounds=(8.06, 6.04, 0.86) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/CASTLE_PRISON_BLOCK/Prison Rear Wall | type=MeshRenderer | bounds=(8.06, 6.04, 0.86) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall 0 | type=MeshRenderer | bounds=(8.06, 6.04, 0.86) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall -4 | type=MeshRenderer | bounds=(8.06, 6.04, 0.86) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall -1 | type=MeshRenderer | bounds=(8.06, 6.04, 0.86) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall 4 | type=MeshRenderer | bounds=(8.06, 6.04, 0.86) | cast=On | receive=True
+PHASE_01_ACTUAL_ASSETS/03_RUINED_CASTLE_AND_PRISON/Castle Rear Wall -2 | type=MeshRenderer | bounds=(8.06, 6.04, 0.86) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_06/PT_Fruit_Tree_01_dead_LOD2 | type=MeshRenderer | bounds=(5.08, 5.81, 6.15) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_06/PT_Fruit_Tree_01_dead_LOD1 | type=MeshRenderer | bounds=(5.08, 5.81, 6.15) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_06/PT_Fruit_Tree_01_dead_LOD0 | type=MeshRenderer | bounds=(5.08, 5.81, 6.14) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_01/PT_Pine_Tree_03_dead_LOD1 | type=MeshRenderer | bounds=(3.23, 8.58, 3.25) | cast=On | receive=True
+RuneSanctuary_Generated/04_Cursed_Border/Cursed_Tree_01/PT_Pine_Tree_03_dead_LOD2 | type=MeshRenderer | bounds=(3.23, 8.58, 3.25) | cast=On | receive=True
+

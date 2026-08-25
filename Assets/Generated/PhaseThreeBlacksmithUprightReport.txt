@@ -1,0 +1,15 @@
+PHASE 3 BLACKSMITH UPRIGHT ANIMATION FIX REPORT
+Scene: Assets/Scenes/SampleScene.unity
+Built: 8/5/2026 3:43:15 AM
+
+Locked the game to first-person mode.
+Disabled old Castle Guardian Boss; demon now guards the rescue story.
+NAVMESH: Baked 481 render-mesh sources with 55-degree slope support.
+NAVMESH ASSET: Assets/Generated/Navigation/PhaseThreeNavMesh.asset
+BLACKSMITH ANIMATOR: Generated a controller with only upright Stand and Walk states.
+BLACKSMITH ANIMATOR PATH: Assets/Generated/Navigation/BlacksmithStory.controller
+BLACKSMITH FIX: Wrapper root created; generated Stand/Walk-only Animator Controller assigned.
+Configured fully passable sliding main gate.
+Kept both wyverns guarding the main escape gate.
+Created all story interaction points.
+Created escape trigger beyond the opened gate.

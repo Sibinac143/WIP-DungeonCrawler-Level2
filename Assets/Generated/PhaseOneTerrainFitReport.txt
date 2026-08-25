@@ -1,0 +1,25 @@
+PHASE 1.5 TERRAIN FIT REPORT
+Scene: Assets/Scenes/SampleScene.unity
+Terrain: Terrain
+Terrain size: (500.00, 300.00, 500.00)
+Backup: Assets/Generated/TerrainBackups/New Terrain_Backup_20260804_224818.asset
+
+PATCHES:
+- Village Terrace - Village House A | bounds=Center: (276.76, 36.12, 245.76), Extents: (6.64, 5.04, 7.01) | targetY=31.083 | innerMargin=4.5 | blend=10.0
+- Village Terrace - Village House B | bounds=Center: (312.64, 26.12, 244.22), Extents: (7.08, 4.76, 6.83) | targetY=21.358 | innerMargin=4.5 | blend=10.0
+- Village Terrace - Village House C | bounds=Center: (280.37, 40.57, 223.83), Extents: (6.70, 4.34, 6.59) | targetY=36.234 | innerMargin=4.5 | blend=10.0
+- Village Terrace - Village House D | bounds=Center: (309.80, 26.98, 224.52), Extents: (6.92, 4.48, 6.80) | targetY=22.501 | innerMargin=4.5 | blend=10.0
+- Village Terrace - Village Mill | bounds=Center: (264.46, 41.57, 232.21), Extents: (4.52, 6.59, 5.16) | targetY=34.982 | innerMargin=5.5 | blend=10.0
+- Village Terrace - Village Gallows | bounds=Center: (319.42, 23.93, 258.60), Extents: (3.16, 2.06, 3.42) | targetY=21.877 | innerMargin=4.5 | blend=10.0
+- Village Terrace - Key Maker House | bounds=Center: (272.77, 29.84, 255.32), Extents: (5.65, 4.90, 5.13) | targetY=24.942 | innerMargin=5.5 | blend=11.0
+- Castle Foundation - Main Courtyard | bounds=Center: (82.11, 7.07, 187.89), Extents: (18.02, 2.20, 18.01) | targetY=6.284 | innerMargin=5.0 | blend=15.0
+- Castle Foundation - Dungeon Corridor | bounds=Center: (71.61, 8.72, 202.89), Extents: (3.95, 0.65, 8.44) | targetY=8.693 | innerMargin=3.5 | blend=10.0
+- Castle Foundation - Prison Block | bounds=Center: (70.11, 9.01, 203.89), Extents: (2.02, 1.07, 10.01) | targetY=8.999 | innerMargin=4.5 | blend=12.0
+- Castle Foundation - Boss Arena | bounds=Center: (106.11, 11.16, 227.89), Extents: (12.97, 5.32, 12.97) | targetY=5.845 | innerMargin=5.0 | blend=14.0
+
+Height patches: 11
+Village structures grounded: 26
+Castle objects grounded: 186
+NPCs grounded: 13
+Trees removed: 281
+Detail cells cleared: 37974

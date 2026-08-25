@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 11f6749b41086f5489be5e1625188715
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303013
+  packageName: Kuzar the Magnificent (Wyvern)
+  packageVersion: 4.0a
+  assetPath: Assets/Malbers Animations/Dragons/Common/Wyverns/Animations/Locomotion/WD_Run_Left_InPlace.anim
+  uploadId: 872652

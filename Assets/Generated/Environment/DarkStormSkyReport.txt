@@ -1,0 +1,8 @@
+LEVEL 2 DARK STORM SKY REPORT
+Scene: Assets/Scenes/SampleScene.unity
+Built: 8/5/2026 12:48:55 PM
+
+No external sky asset was required.
+Configured a dark night skybox, moon light, emissive moon, ambient fog, and runtime lightning.
+Lightning now appears in the sky and sometimes strikes the ground.
+Menu: Tools > Dungeon Game > Finalize > Build Dark Storm Sky
