@@ -1,24 +1,12 @@
-FIX MIXAMO BLACKSMITH MATERIALS
-
-The Mixamo FBX imported with animation and skin, but its renderer did not keep
-the original Unity blacksmith materials. That is why the animated captive
-appears white.
-
-INSTALL
+RETURN AFTER DEMON VICTORY
 
 1. Exit Play Mode.
-2. Run:
+2. Open SampleScene.
+3. Install this ZIP.
+4. Run:
+Tools > Dungeon Game > Polish > ADD Return After Demon Victory
+5. Save.
 
-   cd ~/Desktop/WIP/Dungeongame
-   unzip -o ~/Downloads/FixMixamoBlacksmithMaterials.zip -d .
-
-3. Return to Unity and wait for compilation.
-4. Open Assets/Scenes/SampleScene.unity.
-5. Run:
-
-   Tools
-   > Dungeon Game
-   > Polish
-   > Fix Mixamo Blacksmith Materials
-
-6. Save with Command + S.
+The player's exact position is saved before entering DemonArena.
+After the demon dies, the player fades out, returns to that position, and
+DemonArena unloads.

@@ -21341,6 +21341,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 123448043600718606, guid: 4adeeed5ae13c7d44b078123363a00a9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1051069052}
+    - targetCorrespondingSourceObject: {fileID: 123448043600718606, guid: 4adeeed5ae13c7d44b078123363a00a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1051069059}
+    - targetCorrespondingSourceObject: {fileID: 123448043600718606, guid: 4adeeed5ae13c7d44b078123363a00a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1051069060}
+    - targetCorrespondingSourceObject: {fileID: 123448043600718606, guid: 4adeeed5ae13c7d44b078123363a00a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1051069061}
+    - targetCorrespondingSourceObject: {fileID: 123448043600718606, guid: 4adeeed5ae13c7d44b078123363a00a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1051069062}
+    - targetCorrespondingSourceObject: {fileID: 123448043600718606, guid: 4adeeed5ae13c7d44b078123363a00a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1051069063}
   m_SourcePrefab: {fileID: 100100000, guid: 4adeeed5ae13c7d44b078123363a00a9, type: 3}
 --- !u!1 &1051069049 stripped
 GameObject:
@@ -21482,6 +21497,90 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1051069059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051069049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590c089ea89f74744bc0dfd7a182f255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArenaFallRecovery
+  arenaSceneName: DemonArena
+  playerName: player
+  fallbackSpawnName: Arena Player Spawn
+  minimumY: -2.5
+--- !u!114 &1051069060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051069049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0aea6c72301467aaa7f4466ed02506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArenaBossAnchor
+  arenaSceneName: DemonArena
+  demonSpawnName: Arena Demon Spawn
+  playerName: player
+  holdSeconds: 1.25
+--- !u!114 &1051069061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051069049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314b63f5bab4d40deb4b50e83384aa53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DemonArenaAttackTeleport
+  arenaSceneName: DemonArena
+  playerName: player
+  arenaPlayerSpawnName: Arena Player Spawn
+  arenaDemonSpawnName: Arena Demon Spawn
+  fadeSeconds: 0.55
+--- !u!114 &1051069062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051069049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53826c097ad7f49f9ac6210aba7864bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArenaDemonCombatActivator
+  arenaSceneName: DemonArena
+  demonSpawnName: Arena Demon Spawn
+  playerName: player
+  groundProbeHeight: 8
+  groundProbeDistance: 30
+  fallbackMoveSpeed: 3.2
+  stopDistance: 3.2
+--- !u!114 &1051069063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051069049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c12ea33029824a00a256631b8c979b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DemonArenaReturnAfterVictory
+  arenaSceneName: DemonArena
+  playerName: player
+  victoryDelay: 2
+  fadeSeconds: 0.65
 --- !u!1001 &1056872917
 PrefabInstance:
   m_ObjectHideFlags: 0
