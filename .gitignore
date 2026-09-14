@@ -39,3 +39,4 @@ Desktop.ini
 *.key
 *.p12
 *.pfx
+mono_crash.*.json
